@@ -1,0 +1,17 @@
+{
+  "kind": "audio",
+  "case": {
+    "name": "flac_8ch_48k24_100ms",
+    "codec": "flac",
+    "rate": 48000,
+    "channels": 8,
+    "samples": 4800,
+    "bits": 24
+  },
+  "input_source": "speech_like",
+  "recording": null,
+  "frames": 300,
+  "warmup": 10,
+  "round": 0,
+  "destination": "/root/smartbeamforming_perf/jetson_transport_20260919T192203_150352Z/raw/flac_8ch_48k24_100ms_speech_like_r0.json"
+}

@@ -1,0 +1,18 @@
+{
+  "kind": "audio",
+  "case": {
+    "name": "opus_mono_16k_32k_20ms",
+    "codec": "opus",
+    "rate": 16000,
+    "channels": 1,
+    "samples": 320,
+    "bits": 16,
+    "bitrate": 32000
+  },
+  "input_source": "speech_like",
+  "recording": null,
+  "frames": 300,
+  "warmup": 10,
+  "round": 2,
+  "destination": "/root/smartbeamforming_perf/jetson_transport_20260919T192203_150352Z/raw/opus_mono_16k_32k_20ms_speech_like_r2.json"
+}

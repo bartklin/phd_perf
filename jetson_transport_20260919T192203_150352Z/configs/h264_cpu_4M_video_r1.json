@@ -1,0 +1,19 @@
+{
+  "kind": "video",
+  "case": {
+    "name": "h264_cpu_4M",
+    "backend": "cpu",
+    "bitrate": 4000000,
+    "width": 1920,
+    "height": 1080,
+    "fps": 25,
+    "raw_video": null
+  },
+  "frames": 150,
+  "warmup": 10,
+  "round": 1,
+  "threads": 4,
+  "timeout": 120,
+  "keep_media": false,
+  "destination": "/root/smartbeamforming_perf/jetson_transport_20260919T192203_150352Z/raw/h264_cpu_4M_video_r1.json"
+}

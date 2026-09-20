@@ -1,0 +1,845 @@
+{
+  "project": "Weegree SmartBeamforming",
+  "benchmark": "transport-v1",
+  "status": "passed",
+  "utc_start": "2026-09-19T19:22:03.151017+00:00",
+  "arguments": {
+    "out": null,
+    "quick": false,
+    "check_only": false,
+    "audio_only": false,
+    "rounds": 3,
+    "audio_frames": 300,
+    "video_frames": 150,
+    "warmup": 10,
+    "people": [
+      1,
+      2,
+      3,
+      4,
+      8,
+      16,
+      32,
+      64
+    ],
+    "video_backends": [
+      "cpu",
+      "nvenc"
+    ],
+    "video_mbps": [
+      2,
+      4,
+      8
+    ],
+    "model_video_mbps": 4,
+    "width": 1920,
+    "height": 1080,
+    "fps": 25,
+    "cpu_threads": 4,
+    "video": null,
+    "audio_wav": null,
+    "keep_media": false,
+    "timeout": 120,
+    "security_bytes": 16,
+    "reserve_factor": 1.25,
+    "text_hz": 2,
+    "links_mbps": [
+      1,
+      5,
+      10,
+      20,
+      50,
+      100,
+      1000
+    ],
+    "one_way_ms": 25,
+    "playout_ms": 20,
+    "network_deadline_ms": 100,
+    "network_seconds": 5
+  },
+  "steps": [
+    {
+      "name": "opus_mono_16k_16k_20ms_speech_like_r0",
+      "status": "passed",
+      "config": "configs/opus_mono_16k_16k_20ms_speech_like_r0.json",
+      "command": [
+        "/usr/bin/python3",
+        "-I",
+        "/root/smartbeamforming_perf/jetson_transport.py",
+        "_worker",
+        "/root/smartbeamforming_perf/jetson_transport_20260919T192203_150352Z/configs/opus_mono_16k_16k_20ms_speech_like_r0.json"
+      ]
+    },
+    {
+      "name": "opus_mono_16k_16k_20ms_speech_like_r1",
+      "status": "passed",
+      "config": "configs/opus_mono_16k_16k_20ms_speech_like_r1.json",
+      "command": [
+        "/usr/bin/python3",
+        "-I",
+        "/root/smartbeamforming_perf/jetson_transport.py",
+        "_worker",
+        "/root/smartbeamforming_perf/jetson_transport_20260919T192203_150352Z/configs/opus_mono_16k_16k_20ms_speech_like_r1.json"
+      ]
+    },
+    {
+      "name": "opus_mono_16k_16k_20ms_speech_like_r2",
+      "status": "passed",
+      "config": "configs/opus_mono_16k_16k_20ms_speech_like_r2.json",
+      "command": [
+        "/usr/bin/python3",
+        "-I",
+        "/root/smartbeamforming_perf/jetson_transport.py",
+        "_worker",
+        "/root/smartbeamforming_perf/jetson_transport_20260919T192203_150352Z/configs/opus_mono_16k_16k_20ms_speech_like_r2.json"
+      ]
+    },
+    {
+      "name": "opus_mono_16k_16k_20ms_noise_r0",
+      "status": "passed",
+      "config": "configs/opus_mono_16k_16k_20ms_noise_r0.json",
+      "command": [
+        "/usr/bin/python3",
+        "-I",
+        "/root/smartbeamforming_perf/jetson_transport.py",
+        "_worker",
+        "/root/smartbeamforming_perf/jetson_transport_20260919T192203_150352Z/configs/opus_mono_16k_16k_20ms_noise_r0.json"
+      ]
+    },
+    {
+      "name": "opus_mono_16k_16k_20ms_noise_r1",
+      "status": "passed",
+      "config": "configs/opus_mono_16k_16k_20ms_noise_r1.json",
+      "command": [
+        "/usr/bin/python3",
+        "-I",
+        "/root/smartbeamforming_perf/jetson_transport.py",
+        "_worker",
+        "/root/smartbeamforming_perf/jetson_transport_20260919T192203_150352Z/configs/opus_mono_16k_16k_20ms_noise_r1.json"
+      ]
+    },
+    {
+      "name": "opus_mono_16k_16k_20ms_noise_r2",
+      "status": "passed",
+      "config": "configs/opus_mono_16k_16k_20ms_noise_r2.json",
+      "command": [
+        "/usr/bin/python3",
+        "-I",
+        "/root/smartbeamforming_perf/jetson_transport.py",
+        "_worker",
+        "/root/smartbeamforming_perf/jetson_transport_20260919T192203_150352Z/configs/opus_mono_16k_16k_20ms_noise_r2.json"
+      ]
+    },
+    {
+      "name": "opus_mono_16k_24k_20ms_speech_like_r0",
+      "status": "passed",
+      "config": "configs/opus_mono_16k_24k_20ms_speech_like_r0.json",
+      "command": [
+        "/usr/bin/python3",
+        "-I",
+        "/root/smartbeamforming_perf/jetson_transport.py",
+        "_worker",
+        "/root/smartbeamforming_perf/jetson_transport_20260919T192203_150352Z/configs/opus_mono_16k_24k_20ms_speech_like_r0.json"
+      ]
+    },
+    {
+      "name": "opus_mono_16k_24k_20ms_speech_like_r1",
+      "status": "passed",
+      "config": "configs/opus_mono_16k_24k_20ms_speech_like_r1.json",
+      "command": [
+        "/usr/bin/python3",
+        "-I",
+        "/root/smartbeamforming_perf/jetson_transport.py",
+        "_worker",
+        "/root/smartbeamforming_perf/jetson_transport_20260919T192203_150352Z/configs/opus_mono_16k_24k_20ms_speech_like_r1.json"
+      ]
+    },
+    {
+      "name": "opus_mono_16k_24k_20ms_speech_like_r2",
+      "status": "passed",
+      "config": "configs/opus_mono_16k_24k_20ms_speech_like_r2.json",
+      "command": [
+        "/usr/bin/python3",
+        "-I",
+        "/root/smartbeamforming_perf/jetson_transport.py",
+        "_worker",
+        "/root/smartbeamforming_perf/jetson_transport_20260919T192203_150352Z/configs/opus_mono_16k_24k_20ms_speech_like_r2.json"
+      ]
+    },
+    {
+      "name": "opus_mono_16k_24k_20ms_noise_r0",
+      "status": "passed",
+      "config": "configs/opus_mono_16k_24k_20ms_noise_r0.json",
+      "command": [
+        "/usr/bin/python3",
+        "-I",
+        "/root/smartbeamforming_perf/jetson_transport.py",
+        "_worker",
+        "/root/smartbeamforming_perf/jetson_transport_20260919T192203_150352Z/configs/opus_mono_16k_24k_20ms_noise_r0.json"
+      ]
+    },
+    {
+      "name": "opus_mono_16k_24k_20ms_noise_r1",
+      "status": "passed",
+      "config": "configs/opus_mono_16k_24k_20ms_noise_r1.json",
+      "command": [
+        "/usr/bin/python3",
+        "-I",
+        "/root/smartbeamforming_perf/jetson_transport.py",
+        "_worker",
+        "/root/smartbeamforming_perf/jetson_transport_20260919T192203_150352Z/configs/opus_mono_16k_24k_20ms_noise_r1.json"
+      ]
+    },
+    {
+      "name": "opus_mono_16k_24k_20ms_noise_r2",
+      "status": "passed",
+      "config": "configs/opus_mono_16k_24k_20ms_noise_r2.json",
+      "command": [
+        "/usr/bin/python3",
+        "-I",
+        "/root/smartbeamforming_perf/jetson_transport.py",
+        "_worker",
+        "/root/smartbeamforming_perf/jetson_transport_20260919T192203_150352Z/configs/opus_mono_16k_24k_20ms_noise_r2.json"
+      ]
+    },
+    {
+      "name": "opus_mono_16k_32k_20ms_speech_like_r0",
+      "status": "passed",
+      "config": "configs/opus_mono_16k_32k_20ms_speech_like_r0.json",
+      "command": [
+        "/usr/bin/python3",
+        "-I",
+        "/root/smartbeamforming_perf/jetson_transport.py",
+        "_worker",
+        "/root/smartbeamforming_perf/jetson_transport_20260919T192203_150352Z/configs/opus_mono_16k_32k_20ms_speech_like_r0.json"
+      ]
+    },
+    {
+      "name": "opus_mono_16k_32k_20ms_speech_like_r1",
+      "status": "passed",
+      "config": "configs/opus_mono_16k_32k_20ms_speech_like_r1.json",
+      "command": [
+        "/usr/bin/python3",
+        "-I",
+        "/root/smartbeamforming_perf/jetson_transport.py",
+        "_worker",
+        "/root/smartbeamforming_perf/jetson_transport_20260919T192203_150352Z/configs/opus_mono_16k_32k_20ms_speech_like_r1.json"
+      ]
+    },
+    {
+      "name": "opus_mono_16k_32k_20ms_speech_like_r2",
+      "status": "passed",
+      "config": "configs/opus_mono_16k_32k_20ms_speech_like_r2.json",
+      "command": [
+        "/usr/bin/python3",
+        "-I",
+        "/root/smartbeamforming_perf/jetson_transport.py",
+        "_worker",
+        "/root/smartbeamforming_perf/jetson_transport_20260919T192203_150352Z/configs/opus_mono_16k_32k_20ms_speech_like_r2.json"
+      ]
+    },
+    {
+      "name": "opus_mono_16k_32k_20ms_noise_r0",
+      "status": "passed",
+      "config": "configs/opus_mono_16k_32k_20ms_noise_r0.json",
+      "command": [
+        "/usr/bin/python3",
+        "-I",
+        "/root/smartbeamforming_perf/jetson_transport.py",
+        "_worker",
+        "/root/smartbeamforming_perf/jetson_transport_20260919T192203_150352Z/configs/opus_mono_16k_32k_20ms_noise_r0.json"
+      ]
+    },
+    {
+      "name": "opus_mono_16k_32k_20ms_noise_r1",
+      "status": "passed",
+      "config": "configs/opus_mono_16k_32k_20ms_noise_r1.json",
+      "command": [
+        "/usr/bin/python3",
+        "-I",
+        "/root/smartbeamforming_perf/jetson_transport.py",
+        "_worker",
+        "/root/smartbeamforming_perf/jetson_transport_20260919T192203_150352Z/configs/opus_mono_16k_32k_20ms_noise_r1.json"
+      ]
+    },
+    {
+      "name": "opus_mono_16k_32k_20ms_noise_r2",
+      "status": "passed",
+      "config": "configs/opus_mono_16k_32k_20ms_noise_r2.json",
+      "command": [
+        "/usr/bin/python3",
+        "-I",
+        "/root/smartbeamforming_perf/jetson_transport.py",
+        "_worker",
+        "/root/smartbeamforming_perf/jetson_transport_20260919T192203_150352Z/configs/opus_mono_16k_32k_20ms_noise_r2.json"
+      ]
+    },
+    {
+      "name": "flac_1ch_48k24_20ms_speech_like_r0",
+      "status": "passed",
+      "config": "configs/flac_1ch_48k24_20ms_speech_like_r0.json",
+      "command": [
+        "/usr/bin/python3",
+        "-I",
+        "/root/smartbeamforming_perf/jetson_transport.py",
+        "_worker",
+        "/root/smartbeamforming_perf/jetson_transport_20260919T192203_150352Z/configs/flac_1ch_48k24_20ms_speech_like_r0.json"
+      ]
+    },
+    {
+      "name": "flac_1ch_48k24_20ms_speech_like_r1",
+      "status": "passed",
+      "config": "configs/flac_1ch_48k24_20ms_speech_like_r1.json",
+      "command": [
+        "/usr/bin/python3",
+        "-I",
+        "/root/smartbeamforming_perf/jetson_transport.py",
+        "_worker",
+        "/root/smartbeamforming_perf/jetson_transport_20260919T192203_150352Z/configs/flac_1ch_48k24_20ms_speech_like_r1.json"
+      ]
+    },
+    {
+      "name": "flac_1ch_48k24_20ms_speech_like_r2",
+      "status": "passed",
+      "config": "configs/flac_1ch_48k24_20ms_speech_like_r2.json",
+      "command": [
+        "/usr/bin/python3",
+        "-I",
+        "/root/smartbeamforming_perf/jetson_transport.py",
+        "_worker",
+        "/root/smartbeamforming_perf/jetson_transport_20260919T192203_150352Z/configs/flac_1ch_48k24_20ms_speech_like_r2.json"
+      ]
+    },
+    {
+      "name": "flac_1ch_48k24_20ms_noise_r0",
+      "status": "passed",
+      "config": "configs/flac_1ch_48k24_20ms_noise_r0.json",
+      "command": [
+        "/usr/bin/python3",
+        "-I",
+        "/root/smartbeamforming_perf/jetson_transport.py",
+        "_worker",
+        "/root/smartbeamforming_perf/jetson_transport_20260919T192203_150352Z/configs/flac_1ch_48k24_20ms_noise_r0.json"
+      ]
+    },
+    {
+      "name": "flac_1ch_48k24_20ms_noise_r1",
+      "status": "passed",
+      "config": "configs/flac_1ch_48k24_20ms_noise_r1.json",
+      "command": [
+        "/usr/bin/python3",
+        "-I",
+        "/root/smartbeamforming_perf/jetson_transport.py",
+        "_worker",
+        "/root/smartbeamforming_perf/jetson_transport_20260919T192203_150352Z/configs/flac_1ch_48k24_20ms_noise_r1.json"
+      ]
+    },
+    {
+      "name": "flac_1ch_48k24_20ms_noise_r2",
+      "status": "passed",
+      "config": "configs/flac_1ch_48k24_20ms_noise_r2.json",
+      "command": [
+        "/usr/bin/python3",
+        "-I",
+        "/root/smartbeamforming_perf/jetson_transport.py",
+        "_worker",
+        "/root/smartbeamforming_perf/jetson_transport_20260919T192203_150352Z/configs/flac_1ch_48k24_20ms_noise_r2.json"
+      ]
+    },
+    {
+      "name": "flac_1ch_48k24_100ms_speech_like_r0",
+      "status": "passed",
+      "config": "configs/flac_1ch_48k24_100ms_speech_like_r0.json",
+      "command": [
+        "/usr/bin/python3",
+        "-I",
+        "/root/smartbeamforming_perf/jetson_transport.py",
+        "_worker",
+        "/root/smartbeamforming_perf/jetson_transport_20260919T192203_150352Z/configs/flac_1ch_48k24_100ms_speech_like_r0.json"
+      ]
+    },
+    {
+      "name": "flac_1ch_48k24_100ms_speech_like_r1",
+      "status": "passed",
+      "config": "configs/flac_1ch_48k24_100ms_speech_like_r1.json",
+      "command": [
+        "/usr/bin/python3",
+        "-I",
+        "/root/smartbeamforming_perf/jetson_transport.py",
+        "_worker",
+        "/root/smartbeamforming_perf/jetson_transport_20260919T192203_150352Z/configs/flac_1ch_48k24_100ms_speech_like_r1.json"
+      ]
+    },
+    {
+      "name": "flac_1ch_48k24_100ms_speech_like_r2",
+      "status": "passed",
+      "config": "configs/flac_1ch_48k24_100ms_speech_like_r2.json",
+      "command": [
+        "/usr/bin/python3",
+        "-I",
+        "/root/smartbeamforming_perf/jetson_transport.py",
+        "_worker",
+        "/root/smartbeamforming_perf/jetson_transport_20260919T192203_150352Z/configs/flac_1ch_48k24_100ms_speech_like_r2.json"
+      ]
+    },
+    {
+      "name": "flac_1ch_48k24_100ms_noise_r0",
+      "status": "passed",
+      "config": "configs/flac_1ch_48k24_100ms_noise_r0.json",
+      "command": [
+        "/usr/bin/python3",
+        "-I",
+        "/root/smartbeamforming_perf/jetson_transport.py",
+        "_worker",
+        "/root/smartbeamforming_perf/jetson_transport_20260919T192203_150352Z/configs/flac_1ch_48k24_100ms_noise_r0.json"
+      ]
+    },
+    {
+      "name": "flac_1ch_48k24_100ms_noise_r1",
+      "status": "passed",
+      "config": "configs/flac_1ch_48k24_100ms_noise_r1.json",
+      "command": [
+        "/usr/bin/python3",
+        "-I",
+        "/root/smartbeamforming_perf/jetson_transport.py",
+        "_worker",
+        "/root/smartbeamforming_perf/jetson_transport_20260919T192203_150352Z/configs/flac_1ch_48k24_100ms_noise_r1.json"
+      ]
+    },
+    {
+      "name": "flac_1ch_48k24_100ms_noise_r2",
+      "status": "passed",
+      "config": "configs/flac_1ch_48k24_100ms_noise_r2.json",
+      "command": [
+        "/usr/bin/python3",
+        "-I",
+        "/root/smartbeamforming_perf/jetson_transport.py",
+        "_worker",
+        "/root/smartbeamforming_perf/jetson_transport_20260919T192203_150352Z/configs/flac_1ch_48k24_100ms_noise_r2.json"
+      ]
+    },
+    {
+      "name": "flac_8ch_48k24_20ms_speech_like_r0",
+      "status": "passed",
+      "config": "configs/flac_8ch_48k24_20ms_speech_like_r0.json",
+      "command": [
+        "/usr/bin/python3",
+        "-I",
+        "/root/smartbeamforming_perf/jetson_transport.py",
+        "_worker",
+        "/root/smartbeamforming_perf/jetson_transport_20260919T192203_150352Z/configs/flac_8ch_48k24_20ms_speech_like_r0.json"
+      ]
+    },
+    {
+      "name": "flac_8ch_48k24_20ms_speech_like_r1",
+      "status": "passed",
+      "config": "configs/flac_8ch_48k24_20ms_speech_like_r1.json",
+      "command": [
+        "/usr/bin/python3",
+        "-I",
+        "/root/smartbeamforming_perf/jetson_transport.py",
+        "_worker",
+        "/root/smartbeamforming_perf/jetson_transport_20260919T192203_150352Z/configs/flac_8ch_48k24_20ms_speech_like_r1.json"
+      ]
+    },
+    {
+      "name": "flac_8ch_48k24_20ms_speech_like_r2",
+      "status": "passed",
+      "config": "configs/flac_8ch_48k24_20ms_speech_like_r2.json",
+      "command": [
+        "/usr/bin/python3",
+        "-I",
+        "/root/smartbeamforming_perf/jetson_transport.py",
+        "_worker",
+        "/root/smartbeamforming_perf/jetson_transport_20260919T192203_150352Z/configs/flac_8ch_48k24_20ms_speech_like_r2.json"
+      ]
+    },
+    {
+      "name": "flac_8ch_48k24_20ms_noise_r0",
+      "status": "passed",
+      "config": "configs/flac_8ch_48k24_20ms_noise_r0.json",
+      "command": [
+        "/usr/bin/python3",
+        "-I",
+        "/root/smartbeamforming_perf/jetson_transport.py",
+        "_worker",
+        "/root/smartbeamforming_perf/jetson_transport_20260919T192203_150352Z/configs/flac_8ch_48k24_20ms_noise_r0.json"
+      ]
+    },
+    {
+      "name": "flac_8ch_48k24_20ms_noise_r1",
+      "status": "passed",
+      "config": "configs/flac_8ch_48k24_20ms_noise_r1.json",
+      "command": [
+        "/usr/bin/python3",
+        "-I",
+        "/root/smartbeamforming_perf/jetson_transport.py",
+        "_worker",
+        "/root/smartbeamforming_perf/jetson_transport_20260919T192203_150352Z/configs/flac_8ch_48k24_20ms_noise_r1.json"
+      ]
+    },
+    {
+      "name": "flac_8ch_48k24_20ms_noise_r2",
+      "status": "passed",
+      "config": "configs/flac_8ch_48k24_20ms_noise_r2.json",
+      "command": [
+        "/usr/bin/python3",
+        "-I",
+        "/root/smartbeamforming_perf/jetson_transport.py",
+        "_worker",
+        "/root/smartbeamforming_perf/jetson_transport_20260919T192203_150352Z/configs/flac_8ch_48k24_20ms_noise_r2.json"
+      ]
+    },
+    {
+      "name": "flac_8ch_48k24_100ms_speech_like_r0",
+      "status": "passed",
+      "config": "configs/flac_8ch_48k24_100ms_speech_like_r0.json",
+      "command": [
+        "/usr/bin/python3",
+        "-I",
+        "/root/smartbeamforming_perf/jetson_transport.py",
+        "_worker",
+        "/root/smartbeamforming_perf/jetson_transport_20260919T192203_150352Z/configs/flac_8ch_48k24_100ms_speech_like_r0.json"
+      ]
+    },
+    {
+      "name": "flac_8ch_48k24_100ms_speech_like_r1",
+      "status": "passed",
+      "config": "configs/flac_8ch_48k24_100ms_speech_like_r1.json",
+      "command": [
+        "/usr/bin/python3",
+        "-I",
+        "/root/smartbeamforming_perf/jetson_transport.py",
+        "_worker",
+        "/root/smartbeamforming_perf/jetson_transport_20260919T192203_150352Z/configs/flac_8ch_48k24_100ms_speech_like_r1.json"
+      ]
+    },
+    {
+      "name": "flac_8ch_48k24_100ms_speech_like_r2",
+      "status": "passed",
+      "config": "configs/flac_8ch_48k24_100ms_speech_like_r2.json",
+      "command": [
+        "/usr/bin/python3",
+        "-I",
+        "/root/smartbeamforming_perf/jetson_transport.py",
+        "_worker",
+        "/root/smartbeamforming_perf/jetson_transport_20260919T192203_150352Z/configs/flac_8ch_48k24_100ms_speech_like_r2.json"
+      ]
+    },
+    {
+      "name": "flac_8ch_48k24_100ms_noise_r0",
+      "status": "passed",
+      "config": "configs/flac_8ch_48k24_100ms_noise_r0.json",
+      "command": [
+        "/usr/bin/python3",
+        "-I",
+        "/root/smartbeamforming_perf/jetson_transport.py",
+        "_worker",
+        "/root/smartbeamforming_perf/jetson_transport_20260919T192203_150352Z/configs/flac_8ch_48k24_100ms_noise_r0.json"
+      ]
+    },
+    {
+      "name": "flac_8ch_48k24_100ms_noise_r1",
+      "status": "passed",
+      "config": "configs/flac_8ch_48k24_100ms_noise_r1.json",
+      "command": [
+        "/usr/bin/python3",
+        "-I",
+        "/root/smartbeamforming_perf/jetson_transport.py",
+        "_worker",
+        "/root/smartbeamforming_perf/jetson_transport_20260919T192203_150352Z/configs/flac_8ch_48k24_100ms_noise_r1.json"
+      ]
+    },
+    {
+      "name": "flac_8ch_48k24_100ms_noise_r2",
+      "status": "passed",
+      "config": "configs/flac_8ch_48k24_100ms_noise_r2.json",
+      "command": [
+        "/usr/bin/python3",
+        "-I",
+        "/root/smartbeamforming_perf/jetson_transport.py",
+        "_worker",
+        "/root/smartbeamforming_perf/jetson_transport_20260919T192203_150352Z/configs/flac_8ch_48k24_100ms_noise_r2.json"
+      ]
+    },
+    {
+      "name": "h264_cpu_2M_video_r0",
+      "status": "passed",
+      "config": "configs/h264_cpu_2M_video_r0.json",
+      "command": [
+        "/usr/bin/python3",
+        "-I",
+        "/root/smartbeamforming_perf/jetson_transport.py",
+        "_worker",
+        "/root/smartbeamforming_perf/jetson_transport_20260919T192203_150352Z/configs/h264_cpu_2M_video_r0.json"
+      ]
+    },
+    {
+      "name": "h264_cpu_2M_video_r1",
+      "status": "passed",
+      "config": "configs/h264_cpu_2M_video_r1.json",
+      "command": [
+        "/usr/bin/python3",
+        "-I",
+        "/root/smartbeamforming_perf/jetson_transport.py",
+        "_worker",
+        "/root/smartbeamforming_perf/jetson_transport_20260919T192203_150352Z/configs/h264_cpu_2M_video_r1.json"
+      ]
+    },
+    {
+      "name": "h264_cpu_2M_video_r2",
+      "status": "passed",
+      "config": "configs/h264_cpu_2M_video_r2.json",
+      "command": [
+        "/usr/bin/python3",
+        "-I",
+        "/root/smartbeamforming_perf/jetson_transport.py",
+        "_worker",
+        "/root/smartbeamforming_perf/jetson_transport_20260919T192203_150352Z/configs/h264_cpu_2M_video_r2.json"
+      ]
+    },
+    {
+      "name": "h264_cpu_4M_video_r0",
+      "status": "passed",
+      "config": "configs/h264_cpu_4M_video_r0.json",
+      "command": [
+        "/usr/bin/python3",
+        "-I",
+        "/root/smartbeamforming_perf/jetson_transport.py",
+        "_worker",
+        "/root/smartbeamforming_perf/jetson_transport_20260919T192203_150352Z/configs/h264_cpu_4M_video_r0.json"
+      ]
+    },
+    {
+      "name": "h264_cpu_4M_video_r1",
+      "status": "passed",
+      "config": "configs/h264_cpu_4M_video_r1.json",
+      "command": [
+        "/usr/bin/python3",
+        "-I",
+        "/root/smartbeamforming_perf/jetson_transport.py",
+        "_worker",
+        "/root/smartbeamforming_perf/jetson_transport_20260919T192203_150352Z/configs/h264_cpu_4M_video_r1.json"
+      ]
+    },
+    {
+      "name": "h264_cpu_4M_video_r2",
+      "status": "passed",
+      "config": "configs/h264_cpu_4M_video_r2.json",
+      "command": [
+        "/usr/bin/python3",
+        "-I",
+        "/root/smartbeamforming_perf/jetson_transport.py",
+        "_worker",
+        "/root/smartbeamforming_perf/jetson_transport_20260919T192203_150352Z/configs/h264_cpu_4M_video_r2.json"
+      ]
+    },
+    {
+      "name": "h264_cpu_8M_video_r0",
+      "status": "passed",
+      "config": "configs/h264_cpu_8M_video_r0.json",
+      "command": [
+        "/usr/bin/python3",
+        "-I",
+        "/root/smartbeamforming_perf/jetson_transport.py",
+        "_worker",
+        "/root/smartbeamforming_perf/jetson_transport_20260919T192203_150352Z/configs/h264_cpu_8M_video_r0.json"
+      ]
+    },
+    {
+      "name": "h264_cpu_8M_video_r1",
+      "status": "passed",
+      "config": "configs/h264_cpu_8M_video_r1.json",
+      "command": [
+        "/usr/bin/python3",
+        "-I",
+        "/root/smartbeamforming_perf/jetson_transport.py",
+        "_worker",
+        "/root/smartbeamforming_perf/jetson_transport_20260919T192203_150352Z/configs/h264_cpu_8M_video_r1.json"
+      ]
+    },
+    {
+      "name": "h264_cpu_8M_video_r2",
+      "status": "passed",
+      "config": "configs/h264_cpu_8M_video_r2.json",
+      "command": [
+        "/usr/bin/python3",
+        "-I",
+        "/root/smartbeamforming_perf/jetson_transport.py",
+        "_worker",
+        "/root/smartbeamforming_perf/jetson_transport_20260919T192203_150352Z/configs/h264_cpu_8M_video_r2.json"
+      ]
+    },
+    {
+      "name": "h264_nvenc_2M_video_r0",
+      "status": "passed",
+      "config": "configs/h264_nvenc_2M_video_r0.json",
+      "command": [
+        "/usr/bin/python3",
+        "-I",
+        "/root/smartbeamforming_perf/jetson_transport.py",
+        "_worker",
+        "/root/smartbeamforming_perf/jetson_transport_20260919T192203_150352Z/configs/h264_nvenc_2M_video_r0.json"
+      ]
+    },
+    {
+      "name": "h264_nvenc_2M_video_r1",
+      "status": "passed",
+      "config": "configs/h264_nvenc_2M_video_r1.json",
+      "command": [
+        "/usr/bin/python3",
+        "-I",
+        "/root/smartbeamforming_perf/jetson_transport.py",
+        "_worker",
+        "/root/smartbeamforming_perf/jetson_transport_20260919T192203_150352Z/configs/h264_nvenc_2M_video_r1.json"
+      ]
+    },
+    {
+      "name": "h264_nvenc_2M_video_r2",
+      "status": "passed",
+      "config": "configs/h264_nvenc_2M_video_r2.json",
+      "command": [
+        "/usr/bin/python3",
+        "-I",
+        "/root/smartbeamforming_perf/jetson_transport.py",
+        "_worker",
+        "/root/smartbeamforming_perf/jetson_transport_20260919T192203_150352Z/configs/h264_nvenc_2M_video_r2.json"
+      ]
+    },
+    {
+      "name": "h264_nvenc_4M_video_r0",
+      "status": "passed",
+      "config": "configs/h264_nvenc_4M_video_r0.json",
+      "command": [
+        "/usr/bin/python3",
+        "-I",
+        "/root/smartbeamforming_perf/jetson_transport.py",
+        "_worker",
+        "/root/smartbeamforming_perf/jetson_transport_20260919T192203_150352Z/configs/h264_nvenc_4M_video_r0.json"
+      ]
+    },
+    {
+      "name": "h264_nvenc_4M_video_r1",
+      "status": "passed",
+      "config": "configs/h264_nvenc_4M_video_r1.json",
+      "command": [
+        "/usr/bin/python3",
+        "-I",
+        "/root/smartbeamforming_perf/jetson_transport.py",
+        "_worker",
+        "/root/smartbeamforming_perf/jetson_transport_20260919T192203_150352Z/configs/h264_nvenc_4M_video_r1.json"
+      ]
+    },
+    {
+      "name": "h264_nvenc_4M_video_r2",
+      "status": "passed",
+      "config": "configs/h264_nvenc_4M_video_r2.json",
+      "command": [
+        "/usr/bin/python3",
+        "-I",
+        "/root/smartbeamforming_perf/jetson_transport.py",
+        "_worker",
+        "/root/smartbeamforming_perf/jetson_transport_20260919T192203_150352Z/configs/h264_nvenc_4M_video_r2.json"
+      ]
+    },
+    {
+      "name": "h264_nvenc_8M_video_r0",
+      "status": "passed",
+      "config": "configs/h264_nvenc_8M_video_r0.json",
+      "command": [
+        "/usr/bin/python3",
+        "-I",
+        "/root/smartbeamforming_perf/jetson_transport.py",
+        "_worker",
+        "/root/smartbeamforming_perf/jetson_transport_20260919T192203_150352Z/configs/h264_nvenc_8M_video_r0.json"
+      ]
+    },
+    {
+      "name": "h264_nvenc_8M_video_r1",
+      "status": "passed",
+      "config": "configs/h264_nvenc_8M_video_r1.json",
+      "command": [
+        "/usr/bin/python3",
+        "-I",
+        "/root/smartbeamforming_perf/jetson_transport.py",
+        "_worker",
+        "/root/smartbeamforming_perf/jetson_transport_20260919T192203_150352Z/configs/h264_nvenc_8M_video_r1.json"
+      ]
+    },
+    {
+      "name": "h264_nvenc_8M_video_r2",
+      "status": "passed",
+      "config": "configs/h264_nvenc_8M_video_r2.json",
+      "command": [
+        "/usr/bin/python3",
+        "-I",
+        "/root/smartbeamforming_perf/jetson_transport.py",
+        "_worker",
+        "/root/smartbeamforming_perf/jetson_transport_20260919T192203_150352Z/configs/h264_nvenc_8M_video_r2.json"
+      ]
+    }
+  ],
+  "source_sha256": {
+    "jetson_transport.py": "755c45dd9a7b3606205f722ceb6308aad98e9eda4c8a657ccfd64ffe2396e9cd",
+    "smartbeamforming_transport_codecs.py": "ed1caa5fc682bc886cbb57167c49ce2fca1c441951ebd0e4c43bd4d7407523ca",
+    "run_transport_jetson.sh": "7da6293216d17fbf670587e11d5d00a0a298b496b39eef2b7118e665c482d6ab",
+    "jetson_setup.py": "ba91a56bf28b12d016769db12ef6c3986e6a6e2ae454b64ace284190b8102d03"
+  },
+  "environment": {
+    "platform": "Linux-5.10.120-tegra-aarch64-with-glibc2.29",
+    "python": "3.8.10 (default, Mar 18 2025, 20:04:55) \n[GCC 9.4.0]",
+    "cpu_count": 8,
+    "affinity": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "nvpmodel": {
+      "returncode": 0,
+      "stdout": "NV Power Mode: MODE_30W\n2",
+      "stderr": ""
+    },
+    "jetson_clocks": {
+      "returncode": 0,
+      "stdout": "SOC family:tegra234  Machine:Jetson AGX Orin Developer Kit\nOnline CPUs: 0-7\ncpu0:  Online=1 Governor=schedutil MinFreq=729600 MaxFreq=1728000 CurrentFreq=1728000 IdleStates: WFI=1 c7=1 \ncpu1:  Online=1 Governor=schedutil MinFreq=729600 MaxFreq=1728000 CurrentFreq=1728000 IdleStates: WFI=1 c7=1 \ncpu2:  Online=1 Governor=schedutil MinFreq=729600 MaxFreq=1728000 CurrentFreq=1728000 IdleStates: WFI=1 c7=1 \ncpu3:  Online=1 Governor=schedutil MinFreq=729600 MaxFreq=1728000 CurrentFreq=1497600 IdleStates: WFI=1 c7=1 \ncpu4:  Online=1 Governor=schedutil MinFreq=729600 MaxFreq=1728000 CurrentFreq=1728000 IdleStates: WFI=1 c7=1 \ncpu5:  Online=1 Governor=schedutil MinFreq=729600 MaxFreq=1728000 CurrentFreq=1728000 IdleStates: WFI=1 c7=1 \ncpu6:  Online=1 Governor=schedutil MinFreq=729600 MaxFreq=1728000 CurrentFreq=1497600 IdleStates: WFI=1 c7=1 \ncpu7:  Online=1 Governor=schedutil MinFreq=729600 MaxFreq=1728000 CurrentFreq=1728000 IdleStates: WFI=1 c7=1 \ncpu8:  Online=0 Governor=schedutil MinFreq=729600 MaxFreq=2201600 CurrentFreq=729600 IdleStates: WFI=1 c7=1 \ncpu9:  Online=0 Governor=schedutil MinFreq=729600 MaxFreq=2201600 CurrentFreq=729600 IdleStates: WFI=1 c7=1 \ncpu10: Online=0 Governor=schedutil MinFreq=729600 MaxFreq=2201600 CurrentFreq=729600 IdleStates: WFI=1 c7=1 \ncpu11: Online=0 Governor=schedutil MinFreq=729600 MaxFreq=2201600 CurrentFreq=729600 IdleStates: WFI=1 c7=1 \nGPU MinFreq=306000000 MaxFreq=612000000 CurrentFreq=306000000\nEMC MinFreq=204000000 MaxFreq=3199000000 CurrentFreq=665600000 FreqOverride=0\nDLA0_CORE:   Online=1 MinFreq=0 MaxFreq=1369600000 CurrentFreq=1369600000\nDLA0_FALCON: Online=1 MinFreq=0 MaxFreq=729600000 CurrentFreq=729600000\nDLA1_CORE:   Online=1 MinFreq=0 MaxFreq=1369600000 CurrentFreq=1369600000\nDLA1_FALCON: Online=1 MinFreq=0 MaxFreq=729600000 CurrentFreq=729600000\nPVA0_VPS0: Online=1 MinFreq=0 MaxFreq=512000000 CurrentFreq=512000000\nPVA0_AXI:  Online=1 MinFreq=0 MaxFreq=358400000 CurrentFreq=358400000\nFAN Dynamic Speed control=active hwmon2_pwm1=48\nNV Power Mode: MODE_30W",
+      "stderr": ""
+    },
+    "git": {
+      "returncode": 0,
+      "stdout": "d25cdbc2dc3862e3b27d9cc677495a1f5892dd23",
+      "stderr": ""
+    },
+    "git_worktree": {
+      "returncode": 0,
+      "stdout": "?? assets/",
+      "stderr": ""
+    },
+    "loader": {
+      "LD_PRELOAD": "/usr/lib/aarch64-linux-gnu/libgomp.so.1.0.0:/usr/lib/aarch64-linux-gnu/libGLdispatch.so.0.0.0",
+      "GST_REGISTRY": "/root/smartbeamforming_perf/jetson_setup_logs/transport-gstreamer-registry.bin"
+    },
+    "model": "Jetson AGX Orin Developer Kit",
+    "l4t": "# R35 (release), REVISION: 4.1, GCID: 33958178, BOARD: t186ref, EABI: aarch64, DATE: Tue Aug  1 19:57:35 UTC 2023"
+  },
+  "scope": [
+    "Codec timings measured on this host; sequential trials, no joint audio/video load",
+    "Bitrate scaling and network queues are models, not Internet measurements or capacity proof",
+    "Synthetic fixtures are not a speech, face detection or ASR accuracy evaluation",
+    "FLAC is lossless relative to supplied integer PCM; Opus/H264 are lossy",
+    "No ASR inference; JSON is a representative transcription message fixture",
+    "No system clock, power, CPU isolation or hugepage changes"
+  ],
+  "versions": {
+    "numpy": "1.24.4",
+    "matplotlib": "3.7.5",
+    "sndfile": "libsndfile-1.0.28",
+    "opus": "libopus 1.3.1",
+    "gstreamer": "GStreamer 1.16.3"
+  },
+  "utc_end": "2026-09-19T19:25:06.964668+00:00"
+}

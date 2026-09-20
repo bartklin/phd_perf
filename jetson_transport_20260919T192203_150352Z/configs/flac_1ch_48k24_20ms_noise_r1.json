@@ -1,0 +1,17 @@
+{
+  "kind": "audio",
+  "case": {
+    "name": "flac_1ch_48k24_20ms",
+    "codec": "flac",
+    "rate": 48000,
+    "channels": 1,
+    "samples": 960,
+    "bits": 24
+  },
+  "input_source": "noise",
+  "recording": null,
+  "frames": 300,
+  "warmup": 10,
+  "round": 1,
+  "destination": "/root/smartbeamforming_perf/jetson_transport_20260919T192203_150352Z/raw/flac_1ch_48k24_20ms_noise_r1.json"
+}
