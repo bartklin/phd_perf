@@ -1,0 +1,63 @@
+{
+  "platform": "Linux-5.10.120-tegra-aarch64-with-glibc2.29",
+  "python": "3.8.10",
+  "gstreamer": "GStreamer 1.16.3",
+  "source_sha256": "f14c07cd706d7d0453b364607a1a7cc99c6fb733bb847f20d0ae04b597150583",
+  "loader_environment": {
+    "LD_PRELOAD": "/usr/lib/aarch64-linux-gnu/libgomp.so.1.0.0:/usr/lib/aarch64-linux-gnu/libGLdispatch.so.0.0.0",
+    "GST_REGISTRY": "/root/smartbeamforming_perf/jetson_setup_logs/20260913-084421-280516/gstreamer-registry.bin"
+  },
+  "model": "Jetson AGX Orin Developer Kit",
+  "l4t": "# R35 (release), REVISION: 4.1, GCID: 33958178, BOARD: t186ref, EABI: aarch64, DATE: Tue Aug  1 19:57:35 UTC 2023",
+  "os": "NAME=\"Ubuntu\"\nVERSION=\"20.04.6 LTS (Focal Fossa)\"\nID=ubuntu\nID_LIKE=debian\nPRETTY_NAME=\"Ubuntu 20.04.6 LTS\"\nVERSION_ID=\"20.04\"\nHOME_URL=\"https://www.ubuntu.com/\"\nSUPPORT_URL=\"https://help.ubuntu.com/\"\nBUG_REPORT_URL=\"https://bugs.launchpad.net/ubuntu/\"\nPRIVACY_POLICY_URL=\"https://www.ubuntu.com/legal/terms-and-policies/privacy-policy\"\nVERSION_CODENAME=focal\nUBUNTU_CODENAME=focal",
+  "memory": "MemTotal:       64307864 kB\nMemFree:        59220376 kB\nMemAvailable:   61601752 kB\nBuffers:           54700 kB\nCached:          2859212 kB\nSwapCached:            0 kB\nActive:          1766572 kB\nInactive:        1431916 kB\nActive(anon):       3568 kB\nInactive(anon):   331664 kB\nActive(file):    1763004 kB\nInactive(file):  1100252 kB\nUnevictable:       21428 kB\nMlocked:               0 kB\nSwapTotal:      32153920 kB\nSwapFree:       32153920 kB\nDirty:               296 kB\nWriteback:             0 kB\nAnonPages:        300596 kB\nMapped:           158704 kB\nShmem:             29228 kB\nKReclaimable:      90132 kB\nSlab:             207256 kB\nSReclaimable:      90132 kB\nSUnreclaim:       117124 kB\nKernelStack:        7184 kB\nPageTables:         8584 kB\nNFS_Unstable:          0 kB\nBounce:                0 kB\nWritebackTmp:          0 kB\nCommitLimit:    64307852 kB\nCommitted_AS:    1814180 kB\nVmallocTotal:   135290159040 kB\nVmallocUsed:      161520 kB\nVmallocChunk:          0 kB\nPercpu:             7968 kB\nHardwareCorrupted:     0 kB\nAnonHugePages:    120832 kB\nShmemHugePages:        0 kB\nShmemPmdMapped:        0 kB\nFileHugePages:         0 kB\nFilePmdMapped:         0 kB\nCmaTotal:         524288 kB\nCmaFree:          260404 kB\nHugePages_Total:       0\nHugePages_Free:        0\nHugePages_Rsvd:        0\nHugePages_Surp:        0\nHugepagesize:       2048 kB\nHugetlb:               0 kB",
+  "nvpmodel": {
+    "returncode": 0,
+    "stdout": "NV Power Mode: MODE_30W\n2",
+    "stderr": ""
+  },
+  "jetson_clocks": {
+    "returncode": 0,
+    "stdout": "SOC family:tegra234  Machine:Jetson AGX Orin Developer Kit\nOnline CPUs: 0-7\ncpu0:  Online=1 Governor=schedutil MinFreq=729600 MaxFreq=1728000 CurrentFreq=1497600 IdleStates: WFI=1 c7=1 \ncpu1:  Online=1 Governor=schedutil MinFreq=729600 MaxFreq=1728000 CurrentFreq=1651200 IdleStates: WFI=1 c7=1 \ncpu2:  Online=1 Governor=schedutil MinFreq=729600 MaxFreq=1728000 CurrentFreq=1728000 IdleStates: WFI=1 c7=1 \ncpu3:  Online=1 Governor=schedutil MinFreq=729600 MaxFreq=1728000 CurrentFreq=1574400 IdleStates: WFI=1 c7=1 \ncpu4:  Online=1 Governor=schedutil MinFreq=729600 MaxFreq=1728000 CurrentFreq=1728000 IdleStates: WFI=1 c7=1 \ncpu5:  Online=1 Governor=schedutil MinFreq=729600 MaxFreq=1728000 CurrentFreq=1344000 IdleStates: WFI=1 c7=1 \ncpu6:  Online=1 Governor=schedutil MinFreq=729600 MaxFreq=1728000 CurrentFreq=1728000 IdleStates: WFI=1 c7=1 \ncpu7:  Online=1 Governor=schedutil MinFreq=729600 MaxFreq=1728000 CurrentFreq=1267200 IdleStates: WFI=1 c7=1 \ncpu8:  Online=0 Governor=schedutil MinFreq=729600 MaxFreq=2201600 CurrentFreq=729600 IdleStates: WFI=1 c7=1 \ncpu9:  Online=0 Governor=schedutil MinFreq=729600 MaxFreq=2201600 CurrentFreq=729600 IdleStates: WFI=1 c7=1 \ncpu10: Online=0 Governor=schedutil MinFreq=729600 MaxFreq=2201600 CurrentFreq=729600 IdleStates: WFI=1 c7=1 \ncpu11: Online=0 Governor=schedutil MinFreq=729600 MaxFreq=2201600 CurrentFreq=729600 IdleStates: WFI=1 c7=1 \nGPU MinFreq=306000000 MaxFreq=612000000 CurrentFreq=306000000\nEMC MinFreq=204000000 MaxFreq=3199000000 CurrentFreq=204000000 FreqOverride=0\nDLA0_CORE:   Online=1 MinFreq=0 MaxFreq=1369600000 CurrentFreq=1369600000\nDLA0_FALCON: Online=1 MinFreq=0 MaxFreq=729600000 CurrentFreq=729600000\nDLA1_CORE:   Online=1 MinFreq=0 MaxFreq=1369600000 CurrentFreq=1369600000\nDLA1_FALCON: Online=1 MinFreq=0 MaxFreq=729600000 CurrentFreq=729600000\nPVA0_VPS0: Online=1 MinFreq=0 MaxFreq=512000000 CurrentFreq=512000000\nPVA0_AXI:  Online=1 MinFreq=0 MaxFreq=358400000 CurrentFreq=358400000\nFAN Dynamic Speed control=active hwmon2_pwm1=42\nNV Power Mode: MODE_30W",
+    "stderr": ""
+  },
+  "packages": {
+    "returncode": 1,
+    "stdout": "nvidia-l4t-core\t35.4.1-20230801124926\nnvidia-l4t-gstreamer\t35.4.1-20230801124926",
+    "stderr": "dpkg-query: no packages found matching nvidia-jetpack"
+  },
+  "elements": {
+    "nvv4l2decoder": {
+      "plugin": "nvvideo4linux2",
+      "description": "Decode video streams via V4L2 API"
+    },
+    "nvvidconv": {
+      "plugin": "nvvidconv",
+      "description": "Converts video from one colorspace to another & Resizes"
+    },
+    "avdec_h264": {
+      "plugin": "libav",
+      "description": "libav h264 decoder"
+    },
+    "qtdemux": {
+      "plugin": "isomp4",
+      "description": "Demultiplex a QuickTime file into audio and video streams"
+    },
+    "h264parse": {
+      "plugin": "videoparsersbad",
+      "description": "Parses H.264 streams"
+    },
+    "appsink": {
+      "plugin": "app",
+      "description": "Allow the application to get access to raw buffer"
+    },
+    "videoconvert": {
+      "plugin": "videoconvert",
+      "description": "Converts video from one colorspace to another"
+    },
+    "identity": {
+      "plugin": "coreelements",
+      "description": "Pass data without modification"
+    }
+  }
+}

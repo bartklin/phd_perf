@@ -1,0 +1,128 @@
+[20041.097980] nvdec 15480000.nvdec: RISC-V booting from GSC
+[20041.101610] nvdec 15480000.nvdec: RISCV boot success
+[20042.046544] nvdec 15480000.nvdec: RISC-V booting from GSC
+[20042.050701] nvdec 15480000.nvdec: RISCV boot success
+[20056.019243] nvdec 15480000.nvdec: RISC-V booting from GSC
+[20056.023350] nvdec 15480000.nvdec: RISCV boot success
+[20057.224249] nvdec 15480000.nvdec: RISC-V booting from GSC
+[20057.228444] nvdec 15480000.nvdec: RISCV boot success
+[20073.014605] nvdec 15480000.nvdec: RISC-V booting from GSC
+[20073.018724] nvdec 15480000.nvdec: RISCV boot success
+[20081.944211] nvdec 15480000.nvdec: RISC-V booting from GSC
+[20081.948326] nvdec 15480000.nvdec: RISCV boot success
+[20084.055543] nvdec 15480000.nvdec: RISC-V booting from GSC
+[20084.059255] nvdec 15480000.nvdec: RISCV boot success
+[20098.061490] nvdec 15480000.nvdec: RISC-V booting from GSC
+[20098.065941] nvdec 15480000.nvdec: RISCV boot success
+[20119.149126] nvdec 15480000.nvdec: RISC-V booting from GSC
+[20119.152665] nvdec 15480000.nvdec: RISCV boot success
+[20120.345853] nvdec 15480000.nvdec: RISC-V booting from GSC
+[20120.349021] nvdec 15480000.nvdec: RISCV boot success
+[20136.193202] nvdec 15480000.nvdec: RISC-V booting from GSC
+[20136.197364] nvdec 15480000.nvdec: RISCV boot success
+[20151.769382] nvdec 15480000.nvdec: RISC-V booting from GSC
+[20151.773479] nvdec 15480000.nvdec: RISCV boot success
+[20160.819153] nvdec 15480000.nvdec: RISC-V booting from GSC
+[20160.823286] nvdec 15480000.nvdec: RISCV boot success
+[20170.890603] nvdec 15480000.nvdec: RISC-V booting from GSC
+[20170.894326] nvdec 15480000.nvdec: RISCV boot success
+[20193.967685] nvdec 15480000.nvdec: RISC-V booting from GSC
+[20193.971727] nvdec 15480000.nvdec: RISCV boot success
+[20208.004128] nvdec 15480000.nvdec: RISC-V booting from GSC
+[20208.007576] nvdec 15480000.nvdec: RISCV boot success
+[20215.041819] nvdec 15480000.nvdec: RISC-V booting from GSC
+[20215.046114] nvdec 15480000.nvdec: RISCV boot success
+[20216.246081] nvdec 15480000.nvdec: RISC-V booting from GSC
+[20216.249675] nvdec 15480000.nvdec: RISCV boot success
+[20224.486499] nvdec 15480000.nvdec: RISC-V booting from GSC
+[20224.490627] nvdec 15480000.nvdec: RISCV boot success
+[20233.208760] nvdec 15480000.nvdec: RISC-V booting from GSC
+[20233.212854] nvdec 15480000.nvdec: RISCV boot success
+[20234.161638] nvdec 15480000.nvdec: RISC-V booting from GSC
+[20234.165895] nvdec 15480000.nvdec: RISCV boot success
+[20248.202017] nvdec 15480000.nvdec: RISC-V booting from GSC
+[20248.206181] nvdec 15480000.nvdec: RISCV boot success
+[20250.209364] nvdec 15480000.nvdec: RISC-V booting from GSC
+[20250.213457] nvdec 15480000.nvdec: RISCV boot success
+[20267.874480] nvdec 15480000.nvdec: RISC-V booting from GSC
+[20267.878668] nvdec 15480000.nvdec: RISCV boot success
+[20277.860114] nvdec 15480000.nvdec: RISC-V booting from GSC
+[20277.864227] nvdec 15480000.nvdec: RISCV boot success
+[20281.596602] nvdec 15480000.nvdec: RISC-V booting from GSC
+[20281.600994] nvdec 15480000.nvdec: RISCV boot success
+[20295.692446] nvdec 15480000.nvdec: RISC-V booting from GSC
+[20295.696555] nvdec 15480000.nvdec: RISCV boot success
+[20302.712781] nvdec 15480000.nvdec: RISC-V booting from GSC
+[20302.717054] nvdec 15480000.nvdec: RISCV boot success
+[20316.740642] nvdec 15480000.nvdec: RISC-V booting from GSC
+[20316.746217] nvdec 15480000.nvdec: RISCV boot success
+[20318.728672] nvdec 15480000.nvdec: RISC-V booting from GSC
+[20318.733048] nvdec 15480000.nvdec: RISCV boot success
+[20336.413074] nvdec 15480000.nvdec: RISC-V booting from GSC
+[20336.417220] nvdec 15480000.nvdec: RISCV boot success
+[20352.198626] nvdec 15480000.nvdec: RISC-V booting from GSC
+[20352.202721] nvdec 15480000.nvdec: RISCV boot success
+[20362.968501] nvdec 15480000.nvdec: RISC-V booting from GSC
+[20362.972651] nvdec 15480000.nvdec: RISCV boot success
+[20364.981108] nvdec 15480000.nvdec: RISC-V booting from GSC
+[20364.985255] nvdec 15480000.nvdec: RISCV boot success
+[20372.020234] nvdec 15480000.nvdec: RISC-V booting from GSC
+[20372.023715] nvdec 15480000.nvdec: RISCV boot success
+[20374.848718] nvdec 15480000.nvdec: RISC-V booting from GSC
+[20374.852874] nvdec 15480000.nvdec: RISCV boot success
+[20375.803939] nvdec 15480000.nvdec: RISC-V booting from GSC
+[20375.807691] nvdec 15480000.nvdec: RISCV boot success
+[20399.657115] nvdec 15480000.nvdec: RISC-V booting from GSC
+[20399.661277] nvdec 15480000.nvdec: RISCV boot success
+[20413.712210] nvdec 15480000.nvdec: RISC-V booting from GSC
+[20413.716351] nvdec 15480000.nvdec: RISCV boot success
+[20420.756811] nvdec 15480000.nvdec: RISC-V booting from GSC
+[20420.760968] nvdec 15480000.nvdec: RISCV boot success
+[20422.741514] nvdec 15480000.nvdec: RISC-V booting from GSC
+[20422.745879] nvdec 15480000.nvdec: RISCV boot success
+[20432.579455] nvdec 15480000.nvdec: RISC-V booting from GSC
+[20432.583154] nvdec 15480000.nvdec: RISCV boot success
+[20441.570957] nvdec 15480000.nvdec: RISC-V booting from GSC
+[20441.575820] nvdec 15480000.nvdec: RISCV boot success
+[20442.707283] nvdec 15480000.nvdec: RISC-V booting from GSC
+[20442.710800] nvdec 15480000.nvdec: RISCV boot success
+[20456.765230] nvdec 15480000.nvdec: RISC-V booting from GSC
+[20456.769613] nvdec 15480000.nvdec: RISCV boot success
+[20460.467635] nvdec 15480000.nvdec: RISC-V booting from GSC
+[20460.471740] nvdec 15480000.nvdec: RISCV boot success
+[20481.277335] nvdec 15480000.nvdec: RISC-V booting from GSC
+[20481.281542] nvdec 15480000.nvdec: RISCV boot success
+[20493.193850] nvdec 15480000.nvdec: RISC-V booting from GSC
+[20493.197951] nvdec 15480000.nvdec: RISCV boot success
+[20499.947084] nvdec 15480000.nvdec: RISC-V booting from GSC
+[20499.951208] nvdec 15480000.nvdec: RISCV boot success
+[20514.399365] nvdec 15480000.nvdec: RISC-V booting from GSC
+[20514.403485] nvdec 15480000.nvdec: RISCV boot success
+[20521.430933] nvdec 15480000.nvdec: RISC-V booting from GSC
+[20521.435057] nvdec 15480000.nvdec: RISCV boot success
+[20535.500683] nvdec 15480000.nvdec: RISC-V booting from GSC
+[20535.504831] nvdec 15480000.nvdec: RISCV boot success
+[20539.222757] nvdec 15480000.nvdec: RISC-V booting from GSC
+[20539.226920] nvdec 15480000.nvdec: RISCV boot success
+[20560.289009] nvdec 15480000.nvdec: RISC-V booting from GSC
+[20560.293670] nvdec 15480000.nvdec: RISCV boot success
+[20561.434033] nvdec 15480000.nvdec: RISC-V booting from GSC
+[20561.438210] nvdec 15480000.nvdec: RISCV boot success
+[20576.661083] nvdec 15480000.nvdec: RISC-V booting from GSC
+[20576.665272] nvdec 15480000.nvdec: RISCV boot success
+[20590.358602] nvdec 15480000.nvdec: RISC-V booting from GSC
+[20590.362745] nvdec 15480000.nvdec: RISCV boot success
+[20600.769481] nvdec 15480000.nvdec: RISC-V booting from GSC
+[20600.773644] nvdec 15480000.nvdec: RISCV boot success
+[20605.533495] nvdec 15480000.nvdec: RISC-V booting from GSC
+[20605.537656] nvdec 15480000.nvdec: RISCV boot success
+[20606.681031] nvdec 15480000.nvdec: RISC-V booting from GSC
+[20606.684908] nvdec 15480000.nvdec: RISCV boot success
+[20633.352768] nvdec 15480000.nvdec: RISC-V booting from GSC
+[20633.356575] nvdec 15480000.nvdec: RISCV boot success
+[20647.429676] nvdec 15480000.nvdec: RISC-V booting from GSC
+[20647.433862] nvdec 15480000.nvdec: RISCV boot success
+[20654.560504] nvdec 15480000.nvdec: RISC-V booting from GSC
+[20654.564255] nvdec 15480000.nvdec: RISCV boot success
+[20670.535168] nvdec 15480000.nvdec: RISC-V booting from GSC
+[20670.539272] nvdec 15480000.nvdec: RISCV boot success

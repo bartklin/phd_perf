@@ -1,0 +1,76 @@
+{
+  "validation_revision": 2,
+  "comparisons": [
+    {
+      "case": "replay1000",
+      "status": "passed",
+      "samples": 48544,
+      "core_samples": 48032,
+      "edge_samples": 512,
+      "core_norm_min": 0.25,
+      "core_atol": 0.0002,
+      "edge_before_gain_atol": 2e-06,
+      "rtol": 0.0002,
+      "strict_mismatches": 6,
+      "core_mismatches": 0,
+      "edge_mismatches": 0,
+      "zero_support_mismatches": 0,
+      "max_absolute_error": 0.0015801787376403809,
+      "max_core_absolute_error": 2.1457672119140625e-06,
+      "rms_error": 1.0961539664602496e-05,
+      "rms_reference": 1.3740035349241024,
+      "rms_limit": 0.00013740035349241026,
+      "relative_l2_error": 7.977810381112296e-06,
+      "sample_details": [
+        {
+          "index": 48533,
+          "actual": 0.7499708533287048,
+          "expected": 0.7494651079177856,
+          "absolute_error": 0.0005057454109191895,
+          "window_norm": 8.888405886864348e-07,
+          "roundoff_gain": 1060.68898988609
+        },
+        {
+          "index": 48535,
+          "actual": 0.577279806137085,
+          "expected": 0.576829195022583,
+          "absolute_error": 0.0004506111145019531,
+          "window_norm": 3.6415156046132324e-07,
+          "roundoff_gain": 1657.1389007170296
+        },
+        {
+          "index": 48536,
+          "actual": 1.6885950565338135,
+          "expected": 1.6880145072937012,
+          "absolute_error": 0.0005805492401123047,
+          "window_norm": 2.1347906908886216e-07,
+          "roundoff_gain": 2164.324371342574
+        },
+        {
+          "index": 48538,
+          "actual": -0.3757029175758362,
+          "expected": -0.37469160556793213,
+          "absolute_error": 0.0010113120079040527,
+          "window_norm": 5.5578745161710685e-08,
+          "roundoff_gain": 4241.75549772743
+        },
+        {
+          "index": 48539,
+          "actual": 0.675506591796875,
+          "expected": 0.6770867705345154,
+          "absolute_error": 0.0015801787376403809,
+          "window_norm": 2.2766339924373824e-08,
+          "roundoff_gain": 6627.5557858867605
+        },
+        {
+          "index": 48541,
+          "actual": 1.127597451210022,
+          "expected": 1.1271476745605469,
+          "absolute_error": 0.00044977664947509766,
+          "window_norm": 1.4230038258844502e-09,
+          "roundoff_gain": 3772.2722938362367
+        }
+      ]
+    }
+  ]
+}

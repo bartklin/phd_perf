@@ -1,0 +1,4 @@
+{
+  "status": "unavailable",
+  "reason": "Nie znaleziono ncu (Nsight Compute). Pomiary czasu i zajętości pamięci są dostępne; brak sprzętowych liczników DRAM."
+}

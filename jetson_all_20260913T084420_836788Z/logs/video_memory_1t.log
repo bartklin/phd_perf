@@ -1,0 +1,361 @@
+NvMMLiteOpen : Block : BlockType = 261 
+NvMMLiteBlockCreate : Block : BlockType = 261 
+Opening in BLOCKING MODE 
+jetson_jetson_test_640x360_throughput_nvdec_native round 1: 150 frames
+NvMMLiteOpen : Block : BlockType = 261 
+NvMMLiteBlockCreate : Block : BlockType = 261 
+Opening in BLOCKING MODE 
+jetson_jetson_test_640x360_paced_nvdec_native round 1: 150 frames
+jetson_jetson_test_640x360_paced_software_native round 1: 150 frames
+NvMMLiteOpen : Block : BlockType = 261 
+NvMMLiteBlockCreate : Block : BlockType = 261 
+Opening in BLOCKING MODE 
+jetson_jetson_test_640x360_throughput_nvdec_rgb round 1: 150 frames
+NvMMLiteOpen : Block : BlockType = 261 
+NvMMLiteBlockCreate : Block : BlockType = 261 
+Opening in BLOCKING MODE 
+jetson_jetson_test_640x360_paced_nvdec_rgb round 1: 150 frames
+jetson_jetson_test_640x360_paced_software_rgb round 1: 150 frames
+jetson_jetson_test_640x360_throughput_software_native round 1: 150 frames
+jetson_jetson_test_640x360_throughput_software_rgb round 1: 150 frames
+NvMMLiteOpen : Block : BlockType = 261 
+NvMMLiteBlockCreate : Block : BlockType = 261 
+Opening in BLOCKING MODE 
+jetson_jetson_test_640x360_throughput_nvdec_rgb round 2: 150 frames
+jetson_jetson_test_640x360_paced_software_native round 2: 150 frames
+jetson_jetson_test_640x360_throughput_software_native round 2: 150 frames
+NvMMLiteOpen : Block : BlockType = 261 
+NvMMLiteBlockCreate : Block : BlockType = 261 
+Opening in BLOCKING MODE 
+jetson_jetson_test_640x360_throughput_nvdec_native round 2: 150 frames
+jetson_jetson_test_640x360_throughput_software_rgb round 2: 150 frames
+NvMMLiteOpen : Block : BlockType = 261 
+NvMMLiteBlockCreate : Block : BlockType = 261 
+Opening in BLOCKING MODE 
+jetson_jetson_test_640x360_paced_nvdec_rgb round 2: 150 frames
+jetson_jetson_test_640x360_paced_software_rgb round 2: 150 frames
+NvMMLiteOpen : Block : BlockType = 261 
+NvMMLiteBlockCreate : Block : BlockType = 261 
+Opening in BLOCKING MODE 
+jetson_jetson_test_640x360_paced_nvdec_native round 2: 150 frames
+NvMMLiteOpen : Block : BlockType = 261 
+NvMMLiteBlockCreate : Block : BlockType = 261 
+Opening in BLOCKING MODE 
+jetson_jetson_test_640x360_paced_nvdec_rgb round 3: 150 frames
+jetson_jetson_test_640x360_paced_software_native round 3: 150 frames
+NvMMLiteOpen : Block : BlockType = 261 
+NvMMLiteBlockCreate : Block : BlockType = 261 
+Opening in BLOCKING MODE 
+jetson_jetson_test_640x360_throughput_nvdec_rgb round 3: 150 frames
+NvMMLiteOpen : Block : BlockType = 261 
+NvMMLiteBlockCreate : Block : BlockType = 261 
+Opening in BLOCKING MODE 
+jetson_jetson_test_640x360_paced_nvdec_native round 3: 150 frames
+jetson_jetson_test_640x360_throughput_software_rgb round 3: 150 frames
+jetson_jetson_test_640x360_paced_software_rgb round 3: 150 frames
+jetson_jetson_test_640x360_throughput_software_native round 3: 150 frames
+NvMMLiteOpen : Block : BlockType = 261 
+NvMMLiteBlockCreate : Block : BlockType = 261 
+Opening in BLOCKING MODE 
+jetson_jetson_test_640x360_throughput_nvdec_native round 3: 150 frames
+NvMMLiteOpen : Block : BlockType = 261 
+NvMMLiteBlockCreate : Block : BlockType = 261 
+Opening in BLOCKING MODE 
+jetson_jetson_test_640x360_paced_nvdec_native round 4: 150 frames
+jetson_jetson_test_640x360_throughput_software_native round 4: 150 frames
+jetson_jetson_test_640x360_paced_software_native round 4: 150 frames
+NvMMLiteOpen : Block : BlockType = 261 
+NvMMLiteBlockCreate : Block : BlockType = 261 
+Opening in BLOCKING MODE 
+jetson_jetson_test_640x360_throughput_nvdec_native round 4: 150 frames
+jetson_jetson_test_640x360_paced_software_rgb round 4: 150 frames
+jetson_jetson_test_640x360_throughput_software_rgb round 4: 150 frames
+NvMMLiteOpen : Block : BlockType = 261 
+NvMMLiteBlockCreate : Block : BlockType = 261 
+Opening in BLOCKING MODE 
+jetson_jetson_test_640x360_throughput_nvdec_rgb round 4: 150 frames
+NvMMLiteOpen : Block : BlockType = 261 
+NvMMLiteBlockCreate : Block : BlockType = 261 
+Opening in BLOCKING MODE 
+jetson_jetson_test_640x360_paced_nvdec_rgb round 4: 150 frames
+NvMMLiteOpen : Block : BlockType = 261 
+NvMMLiteBlockCreate : Block : BlockType = 261 
+Opening in BLOCKING MODE 
+jetson_jetson_test_640x360_throughput_nvdec_rgb round 5: 150 frames
+jetson_jetson_test_640x360_throughput_software_native round 5: 150 frames
+NvMMLiteOpen : Block : BlockType = 261 
+NvMMLiteBlockCreate : Block : BlockType = 261 
+Opening in BLOCKING MODE 
+jetson_jetson_test_640x360_throughput_nvdec_native round 5: 150 frames
+NvMMLiteOpen : Block : BlockType = 261 
+NvMMLiteBlockCreate : Block : BlockType = 261 
+Opening in BLOCKING MODE 
+jetson_jetson_test_640x360_paced_nvdec_rgb round 5: 150 frames
+jetson_jetson_test_640x360_throughput_software_rgb round 5: 150 frames
+jetson_jetson_test_640x360_paced_software_native round 5: 150 frames
+jetson_jetson_test_640x360_paced_software_rgb round 5: 150 frames
+NvMMLiteOpen : Block : BlockType = 261 
+NvMMLiteBlockCreate : Block : BlockType = 261 
+Opening in BLOCKING MODE 
+jetson_jetson_test_640x360_paced_nvdec_native round 5: 150 frames
+jetson_jetson_test_640x360_paced_software_native round 6: 150 frames
+NvMMLiteOpen : Block : BlockType = 261 
+NvMMLiteBlockCreate : Block : BlockType = 261 
+Opening in BLOCKING MODE 
+jetson_jetson_test_640x360_paced_nvdec_rgb round 6: 150 frames
+NvMMLiteOpen : Block : BlockType = 261 
+NvMMLiteBlockCreate : Block : BlockType = 261 
+Opening in BLOCKING MODE 
+jetson_jetson_test_640x360_throughput_nvdec_rgb round 6: 150 frames
+NvMMLiteOpen : Block : BlockType = 261 
+NvMMLiteBlockCreate : Block : BlockType = 261 
+Opening in BLOCKING MODE 
+jetson_jetson_test_640x360_paced_nvdec_native round 6: 150 frames
+jetson_jetson_test_640x360_throughput_software_rgb round 6: 150 frames
+NvMMLiteOpen : Block : BlockType = 261 
+NvMMLiteBlockCreate : Block : BlockType = 261 
+Opening in BLOCKING MODE 
+jetson_jetson_test_640x360_throughput_nvdec_native round 6: 150 frames
+jetson_jetson_test_640x360_paced_software_rgb round 6: 150 frames
+jetson_jetson_test_640x360_throughput_software_native round 6: 150 frames
+NvMMLiteOpen : Block : BlockType = 261 
+NvMMLiteBlockCreate : Block : BlockType = 261 
+Opening in BLOCKING MODE 
+jetson_jetson_test_1280x720_throughput_nvdec_native round 1: 150 frames
+NvMMLiteOpen : Block : BlockType = 261 
+NvMMLiteBlockCreate : Block : BlockType = 261 
+Opening in BLOCKING MODE 
+jetson_jetson_test_1280x720_paced_nvdec_native round 1: 150 frames
+jetson_jetson_test_1280x720_paced_software_native round 1: 150 frames
+NvMMLiteOpen : Block : BlockType = 261 
+NvMMLiteBlockCreate : Block : BlockType = 261 
+Opening in BLOCKING MODE 
+jetson_jetson_test_1280x720_throughput_nvdec_rgb round 1: 150 frames
+NvMMLiteOpen : Block : BlockType = 261 
+NvMMLiteBlockCreate : Block : BlockType = 261 
+Opening in BLOCKING MODE 
+jetson_jetson_test_1280x720_paced_nvdec_rgb round 1: 150 frames
+jetson_jetson_test_1280x720_paced_software_rgb round 1: 150 frames
+jetson_jetson_test_1280x720_throughput_software_native round 1: 150 frames
+jetson_jetson_test_1280x720_throughput_software_rgb round 1: 150 frames
+NvMMLiteOpen : Block : BlockType = 261 
+NvMMLiteBlockCreate : Block : BlockType = 261 
+Opening in BLOCKING MODE 
+jetson_jetson_test_1280x720_throughput_nvdec_rgb round 2: 150 frames
+jetson_jetson_test_1280x720_paced_software_native round 2: 150 frames
+jetson_jetson_test_1280x720_throughput_software_native round 2: 150 frames
+NvMMLiteOpen : Block : BlockType = 261 
+NvMMLiteBlockCreate : Block : BlockType = 261 
+Opening in BLOCKING MODE 
+jetson_jetson_test_1280x720_throughput_nvdec_native round 2: 150 frames
+jetson_jetson_test_1280x720_throughput_software_rgb round 2: 150 frames
+NvMMLiteOpen : Block : BlockType = 261 
+NvMMLiteBlockCreate : Block : BlockType = 261 
+Opening in BLOCKING MODE 
+jetson_jetson_test_1280x720_paced_nvdec_rgb round 2: 150 frames
+jetson_jetson_test_1280x720_paced_software_rgb round 2: 150 frames
+NvMMLiteOpen : Block : BlockType = 261 
+NvMMLiteBlockCreate : Block : BlockType = 261 
+Opening in BLOCKING MODE 
+jetson_jetson_test_1280x720_paced_nvdec_native round 2: 150 frames
+NvMMLiteOpen : Block : BlockType = 261 
+NvMMLiteBlockCreate : Block : BlockType = 261 
+Opening in BLOCKING MODE 
+jetson_jetson_test_1280x720_paced_nvdec_rgb round 3: 150 frames
+jetson_jetson_test_1280x720_paced_software_native round 3: 150 frames
+NvMMLiteOpen : Block : BlockType = 261 
+NvMMLiteBlockCreate : Block : BlockType = 261 
+Opening in BLOCKING MODE 
+jetson_jetson_test_1280x720_throughput_nvdec_rgb round 3: 150 frames
+NvMMLiteOpen : Block : BlockType = 261 
+NvMMLiteBlockCreate : Block : BlockType = 261 
+Opening in BLOCKING MODE 
+jetson_jetson_test_1280x720_paced_nvdec_native round 3: 150 frames
+jetson_jetson_test_1280x720_throughput_software_rgb round 3: 150 frames
+jetson_jetson_test_1280x720_paced_software_rgb round 3: 150 frames
+jetson_jetson_test_1280x720_throughput_software_native round 3: 150 frames
+NvMMLiteOpen : Block : BlockType = 261 
+NvMMLiteBlockCreate : Block : BlockType = 261 
+Opening in BLOCKING MODE 
+jetson_jetson_test_1280x720_throughput_nvdec_native round 3: 150 frames
+NvMMLiteOpen : Block : BlockType = 261 
+NvMMLiteBlockCreate : Block : BlockType = 261 
+Opening in BLOCKING MODE 
+jetson_jetson_test_1280x720_paced_nvdec_native round 4: 150 frames
+jetson_jetson_test_1280x720_throughput_software_native round 4: 150 frames
+jetson_jetson_test_1280x720_paced_software_native round 4: 150 frames
+NvMMLiteOpen : Block : BlockType = 261 
+NvMMLiteBlockCreate : Block : BlockType = 261 
+Opening in BLOCKING MODE 
+jetson_jetson_test_1280x720_throughput_nvdec_native round 4: 150 frames
+jetson_jetson_test_1280x720_paced_software_rgb round 4: 150 frames
+jetson_jetson_test_1280x720_throughput_software_rgb round 4: 150 frames
+NvMMLiteOpen : Block : BlockType = 261 
+NvMMLiteBlockCreate : Block : BlockType = 261 
+Opening in BLOCKING MODE 
+jetson_jetson_test_1280x720_throughput_nvdec_rgb round 4: 150 frames
+NvMMLiteOpen : Block : BlockType = 261 
+NvMMLiteBlockCreate : Block : BlockType = 261 
+Opening in BLOCKING MODE 
+jetson_jetson_test_1280x720_paced_nvdec_rgb round 4: 150 frames
+NvMMLiteOpen : Block : BlockType = 261 
+NvMMLiteBlockCreate : Block : BlockType = 261 
+Opening in BLOCKING MODE 
+jetson_jetson_test_1280x720_throughput_nvdec_rgb round 5: 150 frames
+jetson_jetson_test_1280x720_throughput_software_native round 5: 150 frames
+NvMMLiteOpen : Block : BlockType = 261 
+NvMMLiteBlockCreate : Block : BlockType = 261 
+Opening in BLOCKING MODE 
+jetson_jetson_test_1280x720_throughput_nvdec_native round 5: 150 frames
+NvMMLiteOpen : Block : BlockType = 261 
+NvMMLiteBlockCreate : Block : BlockType = 261 
+Opening in BLOCKING MODE 
+jetson_jetson_test_1280x720_paced_nvdec_rgb round 5: 150 frames
+jetson_jetson_test_1280x720_throughput_software_rgb round 5: 150 frames
+jetson_jetson_test_1280x720_paced_software_native round 5: 150 frames
+jetson_jetson_test_1280x720_paced_software_rgb round 5: 150 frames
+NvMMLiteOpen : Block : BlockType = 261 
+NvMMLiteBlockCreate : Block : BlockType = 261 
+Opening in BLOCKING MODE 
+jetson_jetson_test_1280x720_paced_nvdec_native round 5: 150 frames
+jetson_jetson_test_1280x720_paced_software_native round 6: 150 frames
+NvMMLiteOpen : Block : BlockType = 261 
+NvMMLiteBlockCreate : Block : BlockType = 261 
+Opening in BLOCKING MODE 
+jetson_jetson_test_1280x720_paced_nvdec_rgb round 6: 150 frames
+NvMMLiteOpen : Block : BlockType = 261 
+NvMMLiteBlockCreate : Block : BlockType = 261 
+Opening in BLOCKING MODE 
+jetson_jetson_test_1280x720_throughput_nvdec_rgb round 6: 150 frames
+NvMMLiteOpen : Block : BlockType = 261 
+NvMMLiteBlockCreate : Block : BlockType = 261 
+Opening in BLOCKING MODE 
+jetson_jetson_test_1280x720_paced_nvdec_native round 6: 150 frames
+jetson_jetson_test_1280x720_throughput_software_rgb round 6: 150 frames
+NvMMLiteOpen : Block : BlockType = 261 
+NvMMLiteBlockCreate : Block : BlockType = 261 
+Opening in BLOCKING MODE 
+jetson_jetson_test_1280x720_throughput_nvdec_native round 6: 150 frames
+jetson_jetson_test_1280x720_paced_software_rgb round 6: 150 frames
+jetson_jetson_test_1280x720_throughput_software_native round 6: 150 frames
+NvMMLiteOpen : Block : BlockType = 261 
+NvMMLiteBlockCreate : Block : BlockType = 261 
+Opening in BLOCKING MODE 
+jetson_jetson_test_1920x1080_throughput_nvdec_native round 1: 150 frames
+NvMMLiteOpen : Block : BlockType = 261 
+NvMMLiteBlockCreate : Block : BlockType = 261 
+Opening in BLOCKING MODE 
+jetson_jetson_test_1920x1080_paced_nvdec_native round 1: 150 frames
+jetson_jetson_test_1920x1080_paced_software_native round 1: 150 frames
+NvMMLiteOpen : Block : BlockType = 261 
+NvMMLiteBlockCreate : Block : BlockType = 261 
+Opening in BLOCKING MODE 
+jetson_jetson_test_1920x1080_throughput_nvdec_rgb round 1: 150 frames
+NvMMLiteOpen : Block : BlockType = 261 
+NvMMLiteBlockCreate : Block : BlockType = 261 
+Opening in BLOCKING MODE 
+jetson_jetson_test_1920x1080_paced_nvdec_rgb round 1: 150 frames
+jetson_jetson_test_1920x1080_paced_software_rgb round 1: 150 frames
+jetson_jetson_test_1920x1080_throughput_software_native round 1: 150 frames
+jetson_jetson_test_1920x1080_throughput_software_rgb round 1: 150 frames
+NvMMLiteOpen : Block : BlockType = 261 
+NvMMLiteBlockCreate : Block : BlockType = 261 
+Opening in BLOCKING MODE 
+jetson_jetson_test_1920x1080_throughput_nvdec_rgb round 2: 150 frames
+jetson_jetson_test_1920x1080_paced_software_native round 2: 150 frames
+jetson_jetson_test_1920x1080_throughput_software_native round 2: 150 frames
+NvMMLiteOpen : Block : BlockType = 261 
+NvMMLiteBlockCreate : Block : BlockType = 261 
+Opening in BLOCKING MODE 
+jetson_jetson_test_1920x1080_throughput_nvdec_native round 2: 150 frames
+jetson_jetson_test_1920x1080_throughput_software_rgb round 2: 150 frames
+NvMMLiteOpen : Block : BlockType = 261 
+NvMMLiteBlockCreate : Block : BlockType = 261 
+Opening in BLOCKING MODE 
+jetson_jetson_test_1920x1080_paced_nvdec_rgb round 2: 150 frames
+jetson_jetson_test_1920x1080_paced_software_rgb round 2: 150 frames
+NvMMLiteOpen : Block : BlockType = 261 
+NvMMLiteBlockCreate : Block : BlockType = 261 
+Opening in BLOCKING MODE 
+jetson_jetson_test_1920x1080_paced_nvdec_native round 2: 150 frames
+NvMMLiteOpen : Block : BlockType = 261 
+NvMMLiteBlockCreate : Block : BlockType = 261 
+Opening in BLOCKING MODE 
+jetson_jetson_test_1920x1080_paced_nvdec_rgb round 3: 150 frames
+jetson_jetson_test_1920x1080_paced_software_native round 3: 150 frames
+NvMMLiteOpen : Block : BlockType = 261 
+NvMMLiteBlockCreate : Block : BlockType = 261 
+Opening in BLOCKING MODE 
+jetson_jetson_test_1920x1080_throughput_nvdec_rgb round 3: 150 frames
+NvMMLiteOpen : Block : BlockType = 261 
+NvMMLiteBlockCreate : Block : BlockType = 261 
+Opening in BLOCKING MODE 
+jetson_jetson_test_1920x1080_paced_nvdec_native round 3: 150 frames
+jetson_jetson_test_1920x1080_throughput_software_rgb round 3: 150 frames
+jetson_jetson_test_1920x1080_paced_software_rgb round 3: 150 frames
+jetson_jetson_test_1920x1080_throughput_software_native round 3: 150 frames
+NvMMLiteOpen : Block : BlockType = 261 
+NvMMLiteBlockCreate : Block : BlockType = 261 
+Opening in BLOCKING MODE 
+jetson_jetson_test_1920x1080_throughput_nvdec_native round 3: 150 frames
+NvMMLiteOpen : Block : BlockType = 261 
+NvMMLiteBlockCreate : Block : BlockType = 261 
+Opening in BLOCKING MODE 
+jetson_jetson_test_1920x1080_paced_nvdec_native round 4: 150 frames
+jetson_jetson_test_1920x1080_throughput_software_native round 4: 150 frames
+jetson_jetson_test_1920x1080_paced_software_native round 4: 150 frames
+NvMMLiteOpen : Block : BlockType = 261 
+NvMMLiteBlockCreate : Block : BlockType = 261 
+Opening in BLOCKING MODE 
+jetson_jetson_test_1920x1080_throughput_nvdec_native round 4: 150 frames
+jetson_jetson_test_1920x1080_paced_software_rgb round 4: 150 frames
+jetson_jetson_test_1920x1080_throughput_software_rgb round 4: 150 frames
+NvMMLiteOpen : Block : BlockType = 261 
+NvMMLiteBlockCreate : Block : BlockType = 261 
+Opening in BLOCKING MODE 
+jetson_jetson_test_1920x1080_throughput_nvdec_rgb round 4: 150 frames
+NvMMLiteOpen : Block : BlockType = 261 
+NvMMLiteBlockCreate : Block : BlockType = 261 
+Opening in BLOCKING MODE 
+jetson_jetson_test_1920x1080_paced_nvdec_rgb round 4: 150 frames
+NvMMLiteOpen : Block : BlockType = 261 
+NvMMLiteBlockCreate : Block : BlockType = 261 
+Opening in BLOCKING MODE 
+jetson_jetson_test_1920x1080_throughput_nvdec_rgb round 5: 150 frames
+jetson_jetson_test_1920x1080_throughput_software_native round 5: 150 frames
+NvMMLiteOpen : Block : BlockType = 261 
+NvMMLiteBlockCreate : Block : BlockType = 261 
+Opening in BLOCKING MODE 
+jetson_jetson_test_1920x1080_throughput_nvdec_native round 5: 150 frames
+NvMMLiteOpen : Block : BlockType = 261 
+NvMMLiteBlockCreate : Block : BlockType = 261 
+Opening in BLOCKING MODE 
+jetson_jetson_test_1920x1080_paced_nvdec_rgb round 5: 150 frames
+jetson_jetson_test_1920x1080_throughput_software_rgb round 5: 150 frames
+jetson_jetson_test_1920x1080_paced_software_native round 5: 150 frames
+jetson_jetson_test_1920x1080_paced_software_rgb round 5: 150 frames
+NvMMLiteOpen : Block : BlockType = 261 
+NvMMLiteBlockCreate : Block : BlockType = 261 
+Opening in BLOCKING MODE 
+jetson_jetson_test_1920x1080_paced_nvdec_native round 5: 150 frames
+jetson_jetson_test_1920x1080_paced_software_native round 6: 150 frames
+NvMMLiteOpen : Block : BlockType = 261 
+NvMMLiteBlockCreate : Block : BlockType = 261 
+Opening in BLOCKING MODE 
+jetson_jetson_test_1920x1080_paced_nvdec_rgb round 6: 150 frames
+NvMMLiteOpen : Block : BlockType = 261 
+NvMMLiteBlockCreate : Block : BlockType = 261 
+Opening in BLOCKING MODE 
+jetson_jetson_test_1920x1080_throughput_nvdec_rgb round 6: 150 frames
+NvMMLiteOpen : Block : BlockType = 261 
+NvMMLiteBlockCreate : Block : BlockType = 261 
+Opening in BLOCKING MODE 
+jetson_jetson_test_1920x1080_paced_nvdec_native round 6: 150 frames
+jetson_jetson_test_1920x1080_throughput_software_rgb round 6: 150 frames
+NvMMLiteOpen : Block : BlockType = 261 
+NvMMLiteBlockCreate : Block : BlockType = 261 
+Opening in BLOCKING MODE 
+jetson_jetson_test_1920x1080_throughput_nvdec_native round 6: 150 frames
+jetson_jetson_test_1920x1080_paced_software_rgb round 6: 150 frames
+jetson_jetson_test_1920x1080_throughput_software_native round 6: 150 frames
+Results: /root/smartbeamforming_perf/jetson_all_20260913T084420_836788Z/video_memory_1t

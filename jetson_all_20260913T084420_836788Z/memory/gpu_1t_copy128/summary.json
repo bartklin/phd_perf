@@ -1,0 +1,23 @@
+{
+  "case": "copy128",
+  "backend": "gpu",
+  "threads": 1,
+  "n": 1200,
+  "median_ms": 3.656014,
+  "p95_ms": 4.2395714,
+  "sampled_rss_peak_bytes": 244867072,
+  "sampled_rss_increase_bytes": 119640064,
+  "cupy_reserved_bytes": 268435456,
+  "known_array_bytes": 268435456,
+  "read_bytes": 134217728,
+  "write_bytes": 134217728,
+  "effective_MB_s": 73422.983610019,
+  "effective_Mb_s": 587383.868880152,
+  "traffic_model": {
+    "read_bytes": 134217728,
+    "write_bytes": 134217728,
+    "element_read_count": 33554432,
+    "element_write_count": 33554432,
+    "kind": "Exact logical copy traffic; includes both read and write, not a physical DRAM counter."
+  }
+}

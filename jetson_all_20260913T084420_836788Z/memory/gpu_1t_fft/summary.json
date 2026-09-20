@@ -1,0 +1,23 @@
+{
+  "case": "fft",
+  "backend": "gpu",
+  "threads": 1,
+  "n": 1200,
+  "median_ms": 0.1128015,
+  "p95_ms": 0.1214756,
+  "sampled_rss_peak_bytes": 233050112,
+  "sampled_rss_increase_bytes": 107864064,
+  "cupy_reserved_bytes": 132608,
+  "known_array_bytes": 32768,
+  "read_bytes": 32768,
+  "write_bytes": 32832,
+  "effective_MB_s": 581.5525502763704,
+  "effective_Mb_s": 4652.420402210963,
+  "traffic_model": {
+    "read_bytes": 32768,
+    "write_bytes": 32832,
+    "element_read_count": 8192,
+    "element_write_count": 4104,
+    "kind": "FFT input/output boundary bytes only; internal stages excluded."
+  }
+}

@@ -1,0 +1,4 @@
+timestamp_ns,emc_percent,emc_mhz,gpu_percent,ram_reported_mb,swap_reported_mb
+13384554796739,1.0,665.0,0.0,2247.0,0.0
+13384773894346,1.0,665.0,0.0,2247.0,0.0
+13384998165970,1.0,665.0,0.0,2247.0,0.0

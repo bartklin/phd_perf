@@ -1,0 +1,253 @@
+Starting cpu_4t_people1_beams1_round0
+cpu_4t_people1_beams1_round0: PASS, p99 2.937 ms, late 0/1500
+Starting cpu_4t_people1_beams1_round1
+cpu_4t_people1_beams1_round1: PASS, p99 3.005 ms, late 0/1500
+Starting cpu_4t_people1_beams1_round2
+cpu_4t_people1_beams1_round2: PASS, p99 2.826 ms, late 0/1500
+Starting cpu_4t_people1_beams4_round0
+cpu_4t_people1_beams4_round0: PASS, p99 4.284 ms, late 0/1500
+Starting cpu_4t_people1_beams4_round1
+cpu_4t_people1_beams4_round1: PASS, p99 4.435 ms, late 0/1500
+Starting cpu_4t_people1_beams4_round2
+cpu_4t_people1_beams4_round2: PASS, p99 4.327 ms, late 0/1500
+Starting cpu_4t_people2_beams1_round0
+cpu_4t_people2_beams1_round0: PASS, p99 3.365 ms, late 0/1500
+Starting cpu_4t_people2_beams1_round1
+cpu_4t_people2_beams1_round1: PASS, p99 3.449 ms, late 0/1500
+Starting cpu_4t_people2_beams1_round2
+cpu_4t_people2_beams1_round2: PASS, p99 3.265 ms, late 0/1500
+Starting cpu_4t_people2_beams4_round0
+cpu_4t_people2_beams4_round0: PASS, p99 6.505 ms, late 0/1500
+Starting cpu_4t_people2_beams4_round1
+cpu_4t_people2_beams4_round1: PASS, p99 6.536 ms, late 0/1500
+Starting cpu_4t_people2_beams4_round2
+cpu_4t_people2_beams4_round2: PASS, p99 6.576 ms, late 0/1500
+Starting cpu_4t_people4_beams1_round0
+cpu_4t_people4_beams1_round0: PASS, p99 4.326 ms, late 0/1500
+Starting cpu_4t_people4_beams1_round1
+cpu_4t_people4_beams1_round1: PASS, p99 4.341 ms, late 0/1500
+Starting cpu_4t_people4_beams1_round2
+cpu_4t_people4_beams1_round2: PASS, p99 4.265 ms, late 0/1500
+Starting cpu_4t_people4_beams4_round0
+cpu_4t_people4_beams4_round0: LIMIT, p99 10.688 ms, late 50/1500
+Starting cpu_4t_people4_beams4_round1
+cpu_4t_people4_beams4_round1: LIMIT, p99 10.724 ms, late 59/1500
+Starting cpu_4t_people4_beams4_round2
+cpu_4t_people4_beams4_round2: LIMIT, p99 10.702 ms, late 51/1500
+Starting cpu_4t_people8_beams1_round0
+cpu_4t_people8_beams1_round0: PASS, p99 6.730 ms, late 0/1500
+Starting cpu_4t_people8_beams1_round1
+cpu_4t_people8_beams1_round1: PASS, p99 6.648 ms, late 0/1500
+Starting cpu_4t_people8_beams1_round2
+cpu_4t_people8_beams1_round2: PASS, p99 6.680 ms, late 0/1500
+Starting cpu_4t_people8_beams4_round0
+cpu_4t_people8_beams4_round0: LIMIT, p99 18.558 ms, late 145/1500
+Starting cpu_4t_people8_beams4_round1
+cpu_4t_people8_beams4_round1: LIMIT, p99 18.438 ms, late 146/1500
+Starting cpu_4t_people8_beams4_round2
+cpu_4t_people8_beams4_round2: LIMIT, p99 18.555 ms, late 148/1500
+Starting cpu_4t_people16_beams1_round0
+cpu_4t_people16_beams1_round0: LIMIT, p99 11.061 ms, late 59/1500
+Starting cpu_4t_people16_beams1_round1
+cpu_4t_people16_beams1_round1: LIMIT, p99 11.063 ms, late 64/1500
+Starting cpu_4t_people16_beams1_round2
+cpu_4t_people16_beams1_round2: LIMIT, p99 10.959 ms, late 53/1500
+Starting cpu_4t_people16_beams4_round0
+cpu_4t_people16_beams4_round0: LIMIT, p99 25.833 ms, late 189/1500
+Starting cpu_4t_people16_beams4_round1
+cpu_4t_people16_beams4_round1: LIMIT, p99 25.316 ms, late 178/1500
+Starting cpu_4t_people16_beams4_round2
+cpu_4t_people16_beams4_round2: LIMIT, p99 25.768 ms, late 185/1500
+Starting cpu_4t_people32_beams1_round0
+cpu_4t_people32_beams1_round0: LIMIT, p99 18.577 ms, late 138/1500
+Starting cpu_4t_people32_beams1_round1
+cpu_4t_people32_beams1_round1: LIMIT, p99 18.688 ms, late 142/1500
+Starting cpu_4t_people32_beams1_round2
+cpu_4t_people32_beams1_round2: LIMIT, p99 18.346 ms, late 140/1500
+Starting cpu_4t_people32_beams4_round0
+cpu_4t_people32_beams4_round0: LIMIT, p99 31.361 ms, late 308/1500
+Starting cpu_4t_people32_beams4_round1
+cpu_4t_people32_beams4_round1: LIMIT, p99 31.418 ms, late 301/1500
+Starting cpu_4t_people32_beams4_round2
+cpu_4t_people32_beams4_round2: LIMIT, p99 31.498 ms, late 302/1500
+Starting cpu_4t_people64_beams1_round0
+cpu_4t_people64_beams1_round0: LIMIT, p99 24.090 ms, late 181/1500
+Starting cpu_4t_people64_beams1_round1
+cpu_4t_people64_beams1_round1: LIMIT, p99 24.253 ms, late 180/1500
+Starting cpu_4t_people64_beams1_round2
+cpu_4t_people64_beams1_round2: LIMIT, p99 24.503 ms, late 185/1500
+Starting cpu_4t_people64_beams4_round0
+cpu_4t_people64_beams4_round0: LIMIT, p99 57.583 ms, late 1007/1500
+Starting cpu_4t_people64_beams4_round1
+cpu_4t_people64_beams4_round1: LIMIT, p99 57.543 ms, late 1021/1500
+Starting cpu_4t_people64_beams4_round2
+cpu_4t_people64_beams4_round2: LIMIT, p99 57.757 ms, late 1062/1500
+Starting cpu_8t_people1_beams1_round0
+cpu_8t_people1_beams1_round0: PASS, p99 2.924 ms, late 0/1500
+Starting cpu_8t_people1_beams1_round1
+cpu_8t_people1_beams1_round1: PASS, p99 2.589 ms, late 0/1500
+Starting cpu_8t_people1_beams1_round2
+cpu_8t_people1_beams1_round2: PASS, p99 3.005 ms, late 0/1500
+Starting cpu_8t_people1_beams4_round0
+cpu_8t_people1_beams4_round0: PASS, p99 3.679 ms, late 0/1500
+Starting cpu_8t_people1_beams4_round1
+cpu_8t_people1_beams4_round1: PASS, p99 4.568 ms, late 0/1500
+Starting cpu_8t_people1_beams4_round2
+cpu_8t_people1_beams4_round2: PASS, p99 4.640 ms, late 0/1500
+Starting cpu_8t_people2_beams1_round0
+cpu_8t_people2_beams1_round0: PASS, p99 3.009 ms, late 0/1500
+Starting cpu_8t_people2_beams1_round1
+cpu_8t_people2_beams1_round1: PASS, p99 3.580 ms, late 0/1500
+Starting cpu_8t_people2_beams1_round2
+cpu_8t_people2_beams1_round2: PASS, p99 3.520 ms, late 0/1500
+Starting cpu_8t_people2_beams4_round0
+cpu_8t_people2_beams4_round0: PASS, p99 6.570 ms, late 0/1500
+Starting cpu_8t_people2_beams4_round1
+cpu_8t_people2_beams4_round1: PASS, p99 6.665 ms, late 0/1500
+Starting cpu_8t_people2_beams4_round2
+cpu_8t_people2_beams4_round2: PASS, p99 6.436 ms, late 0/1500
+Starting cpu_8t_people4_beams1_round0
+cpu_8t_people4_beams1_round0: PASS, p99 4.521 ms, late 0/1500
+Starting cpu_8t_people4_beams1_round1
+cpu_8t_people4_beams1_round1: PASS, p99 4.474 ms, late 1/1500
+Starting cpu_8t_people4_beams1_round2
+cpu_8t_people4_beams1_round2: PASS, p99 4.437 ms, late 2/1500
+Starting cpu_8t_people4_beams4_round0
+cpu_8t_people4_beams4_round0: LIMIT, p99 10.835 ms, late 59/1500
+Starting cpu_8t_people4_beams4_round1
+cpu_8t_people4_beams4_round1: LIMIT, p99 10.809 ms, late 60/1500
+Starting cpu_8t_people4_beams4_round2
+cpu_8t_people4_beams4_round2: LIMIT, p99 10.738 ms, late 58/1500
+Starting cpu_8t_people8_beams1_round0
+cpu_8t_people8_beams1_round0: PASS, p99 6.567 ms, late 0/1500
+Starting cpu_8t_people8_beams1_round1
+cpu_8t_people8_beams1_round1: PASS, p99 6.745 ms, late 0/1500
+Starting cpu_8t_people8_beams1_round2
+cpu_8t_people8_beams1_round2: PASS, p99 6.805 ms, late 0/1500
+Starting cpu_8t_people8_beams4_round0
+cpu_8t_people8_beams4_round0: LIMIT, p99 18.300 ms, late 147/1500
+Starting cpu_8t_people8_beams4_round1
+cpu_8t_people8_beams4_round1: LIMIT, p99 18.470 ms, late 144/1500
+Starting cpu_8t_people8_beams4_round2
+cpu_8t_people8_beams4_round2: LIMIT, p99 18.692 ms, late 146/1500
+Starting cpu_8t_people16_beams1_round0
+cpu_8t_people16_beams1_round0: LIMIT, p99 10.833 ms, late 58/1500
+Starting cpu_8t_people16_beams1_round1
+cpu_8t_people16_beams1_round1: LIMIT, p99 10.861 ms, late 57/1500
+Starting cpu_8t_people16_beams1_round2
+cpu_8t_people16_beams1_round2: LIMIT, p99 10.754 ms, late 47/1500
+Starting cpu_8t_people16_beams4_round0
+cpu_8t_people16_beams4_round0: LIMIT, p99 25.160 ms, late 202/1500
+Starting cpu_8t_people16_beams4_round1
+cpu_8t_people16_beams4_round1: LIMIT, p99 26.092 ms, late 223/1500
+Starting cpu_8t_people16_beams4_round2
+cpu_8t_people16_beams4_round2: LIMIT, p99 26.059 ms, late 210/1500
+Starting cpu_8t_people32_beams1_round0
+cpu_8t_people32_beams1_round0: LIMIT, p99 18.651 ms, late 141/1500
+Starting cpu_8t_people32_beams1_round1
+cpu_8t_people32_beams1_round1: LIMIT, p99 18.956 ms, late 148/1500
+Starting cpu_8t_people32_beams1_round2
+cpu_8t_people32_beams1_round2: LIMIT, p99 19.482 ms, late 150/1500
+Starting cpu_8t_people32_beams4_round0
+cpu_8t_people32_beams4_round0: LIMIT, p99 31.651 ms, late 319/1500
+Starting cpu_8t_people32_beams4_round1
+cpu_8t_people32_beams4_round1: LIMIT, p99 31.806 ms, late 344/1500
+Starting cpu_8t_people32_beams4_round2
+cpu_8t_people32_beams4_round2: LIMIT, p99 30.938 ms, late 319/1500
+Starting cpu_8t_people64_beams1_round0
+cpu_8t_people64_beams1_round0: LIMIT, p99 24.128 ms, late 193/1500
+Starting cpu_8t_people64_beams1_round1
+cpu_8t_people64_beams1_round1: LIMIT, p99 24.911 ms, late 215/1500
+Starting cpu_8t_people64_beams1_round2
+cpu_8t_people64_beams1_round2: LIMIT, p99 24.250 ms, late 184/1500
+Starting cpu_8t_people64_beams4_round0
+cpu_8t_people64_beams4_round0: LIMIT, p99 58.018 ms, late 1063/1500
+Starting cpu_8t_people64_beams4_round1
+cpu_8t_people64_beams4_round1: LIMIT, p99 60.260 ms, late 1082/1500
+Starting cpu_8t_people64_beams4_round2
+cpu_8t_people64_beams4_round2: LIMIT, p99 60.606 ms, late 1116/1500
+Starting gpu_4t_people1_beams1_round0
+gpu_4t_people1_beams1_round0: PASS, p99 7.368 ms, late 0/1500
+Starting gpu_4t_people1_beams1_round1
+gpu_4t_people1_beams1_round1: PASS, p99 7.869 ms, late 0/1500
+Starting gpu_4t_people1_beams1_round2
+gpu_4t_people1_beams1_round2: PASS, p99 7.553 ms, late 0/1500
+Starting gpu_4t_people1_beams4_round0
+gpu_4t_people1_beams4_round0: PASS, p99 8.336 ms, late 4/1500
+Starting gpu_4t_people1_beams4_round1
+gpu_4t_people1_beams4_round1: PASS, p99 7.386 ms, late 1/1500
+Starting gpu_4t_people1_beams4_round2
+gpu_4t_people1_beams4_round2: PASS, p99 7.761 ms, late 0/1500
+Starting gpu_4t_people2_beams1_round0
+gpu_4t_people2_beams1_round0: PASS, p99 6.929 ms, late 1/1500
+Starting gpu_4t_people2_beams1_round1
+gpu_4t_people2_beams1_round1: PASS, p99 7.169 ms, late 0/1500
+Starting gpu_4t_people2_beams1_round2
+gpu_4t_people2_beams1_round2: PASS, p99 7.137 ms, late 0/1500
+Starting gpu_4t_people2_beams4_round0
+gpu_4t_people2_beams4_round0: PASS, p99 7.468 ms, late 0/1500
+Starting gpu_4t_people2_beams4_round1
+gpu_4t_people2_beams4_round1: PASS, p99 7.543 ms, late 2/1500
+Starting gpu_4t_people2_beams4_round2
+gpu_4t_people2_beams4_round2: PASS, p99 7.323 ms, late 3/1500
+Starting gpu_4t_people4_beams1_round0
+gpu_4t_people4_beams1_round0: PASS, p99 7.656 ms, late 2/1500
+Starting gpu_4t_people4_beams1_round1
+gpu_4t_people4_beams1_round1: PASS, p99 7.975 ms, late 4/1500
+Starting gpu_4t_people4_beams1_round2
+gpu_4t_people4_beams1_round2: PASS, p99 7.610 ms, late 6/1500
+Starting gpu_4t_people4_beams4_round0
+gpu_4t_people4_beams4_round0: PASS, p99 7.138 ms, late 3/1500
+Starting gpu_4t_people4_beams4_round1
+gpu_4t_people4_beams4_round1: PASS, p99 7.670 ms, late 0/1500
+Starting gpu_4t_people4_beams4_round2
+gpu_4t_people4_beams4_round2: PASS, p99 7.766 ms, late 2/1500
+Starting gpu_4t_people8_beams1_round0
+gpu_4t_people8_beams1_round0: PASS, p99 7.249 ms, late 1/1500
+Starting gpu_4t_people8_beams1_round1
+gpu_4t_people8_beams1_round1: PASS, p99 7.066 ms, late 0/1500
+Starting gpu_4t_people8_beams1_round2
+gpu_4t_people8_beams1_round2: PASS, p99 7.458 ms, late 1/1500
+Starting gpu_4t_people8_beams4_round0
+gpu_4t_people8_beams4_round0: PASS, p99 7.586 ms, late 1/1500
+Starting gpu_4t_people8_beams4_round1
+gpu_4t_people8_beams4_round1: PASS, p99 7.560 ms, late 0/1500
+Starting gpu_4t_people8_beams4_round2
+gpu_4t_people8_beams4_round2: PASS, p99 7.715 ms, late 2/1500
+Starting gpu_4t_people16_beams1_round0
+gpu_4t_people16_beams1_round0: PASS, p99 7.739 ms, late 1/1500
+Starting gpu_4t_people16_beams1_round1
+gpu_4t_people16_beams1_round1: PASS, p99 7.552 ms, late 0/1500
+Starting gpu_4t_people16_beams1_round2
+gpu_4t_people16_beams1_round2: PASS, p99 7.708 ms, late 1/1500
+Starting gpu_4t_people16_beams4_round0
+gpu_4t_people16_beams4_round0: PASS, p99 7.550 ms, late 0/1500
+Starting gpu_4t_people16_beams4_round1
+gpu_4t_people16_beams4_round1: PASS, p99 7.458 ms, late 0/1500
+Starting gpu_4t_people16_beams4_round2
+gpu_4t_people16_beams4_round2: PASS, p99 7.957 ms, late 1/1500
+Starting gpu_4t_people32_beams1_round0
+gpu_4t_people32_beams1_round0: PASS, p99 7.807 ms, late 0/1500
+Starting gpu_4t_people32_beams1_round1
+gpu_4t_people32_beams1_round1: PASS, p99 7.698 ms, late 0/1500
+Starting gpu_4t_people32_beams1_round2
+gpu_4t_people32_beams1_round2: PASS, p99 7.705 ms, late 0/1500
+Starting gpu_4t_people32_beams4_round0
+gpu_4t_people32_beams4_round0: LIMIT, p99 10.317 ms, late 21/1500
+Starting gpu_4t_people32_beams4_round1
+gpu_4t_people32_beams4_round1: PASS, p99 9.697 ms, late 13/1500
+Starting gpu_4t_people32_beams4_round2
+gpu_4t_people32_beams4_round2: LIMIT, p99 10.051 ms, late 16/1500
+Starting gpu_4t_people64_beams1_round0
+gpu_4t_people64_beams1_round0: PASS, p99 7.725 ms, late 1/1500
+Starting gpu_4t_people64_beams1_round1
+gpu_4t_people64_beams1_round1: PASS, p99 7.838 ms, late 1/1500
+Starting gpu_4t_people64_beams1_round2
+gpu_4t_people64_beams1_round2: PASS, p99 7.697 ms, late 0/1500
+Starting gpu_4t_people64_beams4_round0
+gpu_4t_people64_beams4_round0: PASS, p99 7.545 ms, late 1/1500
+Starting gpu_4t_people64_beams4_round1
+gpu_4t_people64_beams4_round1: PASS, p99 7.709 ms, late 0/1500
+Starting gpu_4t_people64_beams4_round2
+gpu_4t_people64_beams4_round2: PASS, p99 7.781 ms, late 4/1500
+Results: /root/smartbeamforming_perf/jetson_all_20260913T084420_836788Z/capacity_replay0

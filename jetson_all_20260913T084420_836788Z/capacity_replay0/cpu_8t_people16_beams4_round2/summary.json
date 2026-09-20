@@ -1,0 +1,103 @@
+{
+  "accepted": false,
+  "reasons": [
+    "p99_age_above_deadline",
+    "too_many_late_live_hops"
+  ],
+  "expected_hops": 1500,
+  "completed_hops": 1500,
+  "dropped_hops": 0,
+  "late_hops": 210,
+  "late_percent": 14.0,
+  "age_p99_ms": 26.05855282,
+  "age_max_ms": 28.568491,
+  "service_p95_ms": 6.597892299999325,
+  "service_median_ms": 3.9686135,
+  "replay_expected": 0,
+  "replay_completed": 0,
+  "replay_dropped": 0,
+  "replay_late": 0,
+  "criteria": {
+    "deadline_ms": 10.0,
+    "headroom_fraction": 0.2,
+    "max_late_percent": 1.0,
+    "replay_deadline_ms": 1000.0
+  },
+  "people": 16,
+  "beams_per_person": 4,
+  "candidate_beams": 64,
+  "selected_streams": 16,
+  "origin_ns": 14772516136698,
+  "elapsed_s": 14.998549933,
+  "process_cpu_percent_one_core": 52.375254672984575,
+  "shared_history_bytes": 1169408,
+  "backend": "cpu",
+  "threads": 8,
+  "traffic_model": {
+    "stage_models": [
+      {
+        "stage": "analysis_window",
+        "element_read_count": 16384,
+        "element_write_count": 8192,
+        "read_bytes": 65536,
+        "write_bytes": 32768,
+        "scope": "Logical float32 accesses, reused window counted per channel."
+      },
+      {
+        "stage": "forward_fft_boundary",
+        "element_read_count": 8192,
+        "element_write_count": 4104,
+        "read_bytes": 32768,
+        "write_bytes": 32832,
+        "scope": "Input float32 and output complex64 only; internal FFT stages/workspace excluded."
+      },
+      {
+        "stage": "beam_reduction",
+        "element_read_count": 525312,
+        "element_write_count": 32832,
+        "read_bytes": 4202496,
+        "write_bytes": 262656,
+        "scope": "Logical complex64 operands per multiply and final sum stores; register/cache reuse and partial sums excluded."
+      },
+      {
+        "stage": "beam_selection_boundary",
+        "element_read_count": 32832,
+        "element_write_count": 8288,
+        "read_bytes": 262656,
+        "write_bytes": 66048,
+        "scope": "Minimum array boundary traffic; score intermediates, reductions and gather rereads excluded."
+      },
+      {
+        "stage": "inverse_fft_boundary",
+        "element_read_count": 8208,
+        "element_write_count": 16384,
+        "read_bytes": 65664,
+        "write_bytes": 65536,
+        "scope": "One selected signal per person; FFT internal stages excluded."
+      }
+    ],
+    "modeled_read_bytes_per_hop": 4629120,
+    "modeled_write_bytes_per_hop": 459840,
+    "modeled_element_reads_per_hop": 590928,
+    "modeled_element_writes_per_hop": 69800,
+    "host_to_device_payload_bytes_per_hop": 0,
+    "device_to_host_payload_bytes_per_hop": 0,
+    "input_capture_payload_MB_s": 1.536,
+    "selected_audio_payload_MB_s": 3.072,
+    "excluded": [
+      "OLA and ring copies",
+      "score temporaries",
+      "FFT internal passes",
+      "weight refresh",
+      "history replay",
+      "cache lines/write allocation",
+      "Python/runtime traffic"
+    ],
+    "kind": "Partial logical access model; never a DRAM transaction count or complete application bandwidth."
+  },
+  "modeled_live_access_MB_s": 508.94520030931847,
+  "sampled_rss_peak_bytes": 79007744,
+  "sampled_rss_increase_bytes": 18427904,
+  "cupy_reserved_bytes": null,
+  "cupy_used_bytes": null
+}

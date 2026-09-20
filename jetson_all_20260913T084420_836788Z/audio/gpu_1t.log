@@ -1,0 +1,11 @@
+gpu_1t: audio correctness checks passed
+gpu_1t: audio round 1/6
+gpu_1t: audio round 2/6
+gpu_1t: audio round 3/6
+gpu_1t: audio round 4/6
+gpu_1t: audio round 5/6
+gpu_1t: audio round 6/6
+gpu_1t: stream_1_baseline 1500/1500 audio, 7 late
+gpu_1t: stream_1_replay750 1500/1500 audio, 25 late
+gpu_1t: stream_4_baseline 1500/1500 audio, 1 late
+gpu_1t: stream_4_replay750 1500/1500 audio, 19 late

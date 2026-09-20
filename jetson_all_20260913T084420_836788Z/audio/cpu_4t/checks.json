@@ -1,0 +1,9 @@
+{
+  "audio_validation_revision": 2,
+  "audio_1": "DAS/MVDR response, backend agreement, shared FFT and replay equivalence passed",
+  "audio_4": "DAS/MVDR response, backend agreement, shared FFT and replay equivalence passed",
+  "state": "Ring wraparound, context identity, stale observations and correction gates passed",
+  "complete_audio": "CPU reference agrees with output hops and replay; conditioned boundaries, full-signal RMS and selection checked",
+  "video": "not_run: audio-only workload",
+  "gpu": "not_run: CPU backend"
+}

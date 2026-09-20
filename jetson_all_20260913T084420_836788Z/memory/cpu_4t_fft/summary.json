@@ -1,0 +1,23 @@
+{
+  "case": "fft",
+  "backend": "cpu",
+  "threads": 4,
+  "n": 1200,
+  "median_ms": 0.044736,
+  "p95_ms": 0.05719459999999999,
+  "sampled_rss_peak_bytes": 53731328,
+  "sampled_rss_increase_bytes": 995328,
+  "cupy_reserved_bytes": null,
+  "known_array_bytes": 32768,
+  "read_bytes": 32768,
+  "write_bytes": 32832,
+  "effective_MB_s": 1466.3805436337625,
+  "effective_Mb_s": 11731.0443490701,
+  "traffic_model": {
+    "read_bytes": 32768,
+    "write_bytes": 32832,
+    "element_read_count": 8192,
+    "element_write_count": 4104,
+    "kind": "FFT input/output boundary bytes only; internal stages excluded."
+  }
+}

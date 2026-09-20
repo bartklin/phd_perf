@@ -1,0 +1,42 @@
+Starting cpu_1t_fft
+Starting cpu_1t_beam1
+Starting cpu_1t_beam4
+Starting cpu_1t_audio1
+Starting cpu_1t_audio4
+Starting cpu_1t_replay500
+Starting cpu_1t_replay750
+Starting cpu_1t_replay1000
+Starting cpu_1t_copy1
+Starting cpu_1t_copy16
+Starting cpu_1t_copy128
+Starting cpu_4t_fft
+Starting cpu_4t_beam1
+Starting cpu_4t_beam4
+Starting cpu_4t_audio1
+Starting cpu_4t_audio4
+Starting cpu_4t_replay500
+Starting cpu_4t_replay750
+Starting cpu_4t_replay1000
+Starting cpu_4t_copy1
+Starting cpu_4t_copy16
+Starting cpu_4t_copy128
+Starting gpu_1t_fft
+GPU counters fft: unavailable: Nie znaleziono ncu (Nsight Compute). Pomiary czasu i zajętości pamięci są dostępne; brak sprzętowych liczników DRAM.
+Starting gpu_1t_beam1
+GPU counters beam1: unavailable: Nie znaleziono ncu (Nsight Compute). Pomiary czasu i zajętości pamięci są dostępne; brak sprzętowych liczników DRAM.
+Starting gpu_1t_beam4
+GPU counters beam4: unavailable: Nie znaleziono ncu (Nsight Compute). Pomiary czasu i zajętości pamięci są dostępne; brak sprzętowych liczników DRAM.
+Starting gpu_1t_audio1
+GPU counters audio1: unavailable: Nie znaleziono ncu (Nsight Compute). Pomiary czasu i zajętości pamięci są dostępne; brak sprzętowych liczników DRAM.
+Starting gpu_1t_audio4
+GPU counters audio4: unavailable: Nie znaleziono ncu (Nsight Compute). Pomiary czasu i zajętości pamięci są dostępne; brak sprzętowych liczników DRAM.
+Starting gpu_1t_replay500
+GPU counters replay500: unavailable: Nie znaleziono ncu (Nsight Compute). Pomiary czasu i zajętości pamięci są dostępne; brak sprzętowych liczników DRAM.
+Starting gpu_1t_replay750
+GPU counters replay750: unavailable: Nie znaleziono ncu (Nsight Compute). Pomiary czasu i zajętości pamięci są dostępne; brak sprzętowych liczników DRAM.
+Starting gpu_1t_replay1000
+GPU counters replay1000: unavailable: Nie znaleziono ncu (Nsight Compute). Pomiary czasu i zajętości pamięci są dostępne; brak sprzętowych liczników DRAM.
+Starting gpu_1t_copy1
+Starting gpu_1t_copy16
+Starting gpu_1t_copy128
+Results: /root/smartbeamforming_perf/jetson_all_20260913T084420_836788Z/memory

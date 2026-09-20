@@ -1,0 +1,57 @@
+$ /root/smartbeamforming_perf/.venv-jetson/bin/python -I /root/smartbeamforming_perf/jetson_setup.py _cuda-check /root/smartbeamforming_perf/jetson_setup_logs/20260913-084421-280516/cuda_runtime
+OS                           : Linux-5.10.120-tegra-aarch64-with-glibc2.29
+Python Version               : 3.8.10
+CuPy Version                 : 12.3.0
+CuPy Platform                : NVIDIA CUDA
+NumPy Version                : 1.24.4
+SciPy Version                : 1.10.1
+Cython Build Version         : 0.29.37
+Cython Runtime Version       : 0.29.37
+CUDA Root                    : /usr/local/cuda-11.4
+nvcc PATH                    : /usr/local/cuda-11.4/bin/nvcc
+CUDA Build Version           : 11040
+CUDA Driver Version          : 11040
+CUDA Runtime Version         : 11040
+cuBLAS Version               : (available)
+cuFFT Version                : 10600
+cuRAND Version               : 10205
+cuSOLVER Version             : (11, 2, 0)
+cuSPARSE Version             : (available)
+NVRTC Version                : (11, 4)
+Thrust Version               : 101201
+CUB Build Version            : 101201
+Jitify Build Version         : <unknown>
+cuDNN Build Version          : None
+cuDNN Version                : None
+NCCL Build Version           : None
+NCCL Runtime Version         : None
+cuTENSOR Version             : None
+cuSPARSELt Build Version     : None
+Device 0 Name                : Orin
+Device 0 Compute Capability  : 87
+Device 0 PCI Bus ID          : 0000:00:00.0
+{"phase": "cuda_runtime", "python": "/root/smartbeamforming_perf/.venv-jetson/bin/python", "status": "passed", "cupy": "12.3.0"}
+$ /root/smartbeamforming_perf/.venv-jetson/bin/python -I /root/smartbeamforming_perf/jetson_setup.py _audio-check cpu /root/smartbeamforming_perf/jetson_setup_logs/20260913-084421-280516/audio_cpu
+{"phase": "audio_validation", "backend": "cpu", "python": "/root/smartbeamforming_perf/.venv-jetson/bin/python", "status": "passed", "cupy": null}
+$ /root/smartbeamforming_perf/.venv-jetson/bin/python -I /root/smartbeamforming_perf/jetson_setup.py _audio-check gpu /root/smartbeamforming_perf/jetson_setup_logs/20260913-084421-280516/audio_gpu
+{"phase": "audio_validation", "backend": "gpu", "python": "/root/smartbeamforming_perf/.venv-jetson/bin/python", "status": "passed", "cupy": "12.3.0"}
+$ ffmpeg -hide_banner -loglevel error -y -f lavfi -i testsrc2=size=320x240:rate=25 -frames:v 40 -an -c:v libx264 -threads 1 -bf 0 -pix_fmt yuv420p /root/smartbeamforming_perf/jetson_setup_logs/20260913-084421-280516/installation_check_320x240.mp4
+$ /usr/bin/python3 -I /root/smartbeamforming_perf/jetson_setup.py _video-check /root/smartbeamforming_perf/jetson_setup_logs/20260913-084421-280516/installation_check_320x240.mp4 /root/smartbeamforming_perf/jetson_setup_logs/20260913-084421-280516/video_check_initial.json
+H.264 software/native: passed
+H.264 software/rgb: passed
+NvMMLiteOpen : Block : BlockType = 261 
+NvMMLiteBlockCreate : Block : BlockType = 261 
+NVMMLITE_NVVIDEODEC, <NvVideoBufferProcessing:6089> Consume the extra signalling for EOS 
+H.264 nvdec/native: passed
+NvMMLiteOpen : Block : BlockType = 261 
+NvMMLiteBlockCreate : Block : BlockType = 261 
+H.264 nvdec/rgb: passed
+H.264 software/NVDEC, native/RGB: passed
+Opening in BLOCKING MODE 
+Opening in BLOCKING MODE 
+
+Instalacja i sprawdzenie zakończone. Uruchamianie:
+  bash run_jetson.sh audio --backend both --profile quick --out jetson_audio_check
+  bash run_jetson.sh audio --backend both --profile full --out jetson_audio_fixed
+  bash run_jetson.sh info
+Logi: /root/smartbeamforming_perf/jetson_setup_logs/20260913-084421-280516

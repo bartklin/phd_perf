@@ -1,0 +1,145 @@
+{
+  "validation_revision": 2,
+  "comparisons": [
+    {
+      "case": "people_live_0",
+      "status": "passed",
+      "samples": 480,
+      "core_samples": 224,
+      "edge_samples": 256,
+      "core_norm_min": 0.25,
+      "core_atol": 0.0002,
+      "edge_before_gain_atol": 2e-06,
+      "rtol": 0.0002,
+      "strict_mismatches": 0,
+      "core_mismatches": 0,
+      "edge_mismatches": 0,
+      "zero_support_mismatches": 0,
+      "max_absolute_error": 0.0008783340454101562,
+      "max_core_absolute_error": 1.430511474609375e-06,
+      "rms_error": 6.58180206123267e-05,
+      "rms_reference": 2.4065881048828084,
+      "rms_limit": 0.00024065881048828086,
+      "relative_l2_error": 2.7349100778311953e-05,
+      "sample_details": [
+        {
+          "index": 6,
+          "actual": 10.324882507324219,
+          "expected": 10.325760841369629,
+          "absolute_error": 0.0008783340454101562,
+          "window_norm": 1.1524011256369704e-07,
+          "roundoff_gain": 2945.7654427922525
+        }
+      ]
+    },
+    {
+      "case": "people_live_1",
+      "status": "passed",
+      "samples": 480,
+      "core_samples": 480,
+      "edge_samples": 0,
+      "core_norm_min": 0.25,
+      "core_atol": 0.0002,
+      "edge_before_gain_atol": 2e-06,
+      "rtol": 0.0002,
+      "strict_mismatches": 0,
+      "core_mismatches": 0,
+      "edge_mismatches": 0,
+      "zero_support_mismatches": 0,
+      "max_absolute_error": 2.1457672119140625e-06,
+      "max_core_absolute_error": 2.1457672119140625e-06,
+      "rms_error": 5.116680723876582e-07,
+      "rms_reference": 0.9584000041119797,
+      "rms_limit": 9.584000041119798e-05,
+      "relative_l2_error": 5.338773687315999e-07,
+      "sample_details": [
+        {
+          "index": 25,
+          "actual": -3.1200857162475586,
+          "expected": -3.1200878620147705,
+          "absolute_error": 2.1457672119140625e-06,
+          "window_norm": 0.9992380142211914,
+          "roundoff_gain": 1.0003812107611274
+        }
+      ]
+    },
+    {
+      "case": "people_live_2",
+      "status": "passed",
+      "samples": 480,
+      "core_samples": 480,
+      "edge_samples": 0,
+      "core_norm_min": 0.25,
+      "core_atol": 0.0002,
+      "edge_before_gain_atol": 2e-06,
+      "rtol": 0.0002,
+      "strict_mismatches": 0,
+      "core_mismatches": 0,
+      "edge_mismatches": 0,
+      "zero_support_mismatches": 0,
+      "max_absolute_error": 2.1457672119140625e-06,
+      "max_core_absolute_error": 2.1457672119140625e-06,
+      "rms_error": 5.111558908258763e-07,
+      "rms_reference": 0.9583536584103547,
+      "rms_limit": 9.583536584103548e-05,
+      "relative_l2_error": 5.333687478939074e-07,
+      "sample_details": [
+        {
+          "index": 25,
+          "actual": -3.1198770999908447,
+          "expected": -3.1198792457580566,
+          "absolute_error": 2.1457672119140625e-06,
+          "window_norm": 0.9994217753410339,
+          "roundoff_gain": 1.0002892377688366
+        }
+      ]
+    },
+    {
+      "case": "people_replay",
+      "status": "passed",
+      "samples": 2944,
+      "core_samples": 2432,
+      "edge_samples": 512,
+      "core_norm_min": 0.25,
+      "core_atol": 0.0002,
+      "edge_before_gain_atol": 2e-06,
+      "rtol": 0.0002,
+      "strict_mismatches": 2,
+      "core_mismatches": 0,
+      "edge_mismatches": 0,
+      "zero_support_mismatches": 0,
+      "max_absolute_error": 0.0012836456298828125,
+      "max_core_absolute_error": 2.1457672119140625e-06,
+      "rms_error": 4.9175588647794946e-05,
+      "rms_reference": 1.1783016450753803,
+      "rms_limit": 0.00011783016450753803,
+      "relative_l2_error": 4.173429516399343e-05,
+      "sample_details": [
+        {
+          "index": 2932,
+          "actual": -0.026126515120267868,
+          "expected": -0.02544722706079483,
+          "absolute_error": 0.0006792880594730377,
+          "window_norm": 1.3011796227146988e-06,
+          "roundoff_gain": 876.6603677698424
+        },
+        {
+          "index": 2936,
+          "actual": 2.1534602642059326,
+          "expected": 2.15268611907959,
+          "absolute_error": 0.0007741451263427734,
+          "window_norm": 2.1347906908886216e-07,
+          "roundoff_gain": 2164.324371342574
+        },
+        {
+          "index": 2939,
+          "actual": -12.443739891052246,
+          "expected": -12.445023536682129,
+          "absolute_error": 0.0012836456298828125,
+          "window_norm": 2.2766339924373824e-08,
+          "roundoff_gain": 6627.5557858867605
+        }
+      ]
+    }
+  ]
+}

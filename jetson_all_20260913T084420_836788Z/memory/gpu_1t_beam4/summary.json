@@ -1,0 +1,24 @@
+{
+  "case": "beam4",
+  "backend": "gpu",
+  "threads": 1,
+  "n": 1200,
+  "median_ms": 1.307057,
+  "p95_ms": 1.3694026,
+  "sampled_rss_peak_bytes": 1348378624,
+  "sampled_rss_increase_bytes": 1220739072,
+  "cupy_reserved_bytes": 472064,
+  "known_array_bytes": 211909,
+  "read_bytes": 262656,
+  "write_bytes": 16416,
+  "effective_MB_s": 213.51172902176418,
+  "effective_Mb_s": 1708.0938321741135,
+  "traffic_model": {
+    "stage": "beam_reduction",
+    "element_read_count": 32832,
+    "element_write_count": 2052,
+    "read_bytes": 262656,
+    "write_bytes": 16416,
+    "scope": "Logical complex64 operands per multiply and final sum stores; register/cache reuse and partial sums excluded."
+  }
+}

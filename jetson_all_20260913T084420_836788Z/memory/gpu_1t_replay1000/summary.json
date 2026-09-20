@@ -1,0 +1,23 @@
+{
+  "case": "replay1000",
+  "backend": "gpu",
+  "threads": 1,
+  "n": 1200,
+  "median_ms": 1.9862650000000002,
+  "p95_ms": 2.92034805,
+  "sampled_rss_peak_bytes": 1359466496,
+  "sampled_rss_increase_bytes": 1232338944,
+  "cupy_reserved_bytes": 14955008,
+  "known_array_bytes": 1699717,
+  "read_bytes": 1553408,
+  "write_bytes": 194176,
+  "effective_MB_s": 879.8342617928624,
+  "effective_Mb_s": 7038.6740943428995,
+  "traffic_model": {
+    "read_bytes": 1553408,
+    "write_bytes": 194176,
+    "element_read_count": 388352,
+    "element_write_count": 48544,
+    "kind": "Replay input/output boundary only; overlapping frames, FFT, beams and synthesis traffic excluded."
+  }
+}

@@ -1,0 +1,613 @@
+{
+  "project": "Weegree SmartBeamforming",
+  "status": "complete",
+  "utc_start": "2026-09-13T08:44:20.845823+00:00",
+  "profile": "full",
+  "arguments": {
+    "quick": false,
+    "out": null,
+    "video": [],
+    "no_gpu_counters": false,
+    "gpu_implementation": "optimized"
+  },
+  "root": "/root/smartbeamforming_perf",
+  "out": "/root/smartbeamforming_perf/jetson_all_20260913T084420_836788Z",
+  "thread_counts": {
+    "audio": [
+      1,
+      4
+    ],
+    "capacity": [
+      4,
+      8
+    ],
+    "gpu_host": 4,
+    "video": [
+      1,
+      4
+    ]
+  },
+  "sources": {
+    "smartbeamforming_perf.py": "f14c07cd706d7d0453b364607a1a7cc99c6fb733bb847f20d0ae04b597150583",
+    "smartbeamforming_resources.py": "bc6310a8ce996c4bf1c1d18591f48c0e1d424fc4c8770e24fcf0d8a237b9119d",
+    "jetson_setup.py": "ba91a56bf28b12d016769db12ef6c3986e6a6e2ae454b64ace284190b8102d03",
+    "jetson_all.py": "b8df2dfb33624233e45c4089b1d1daf6b09ce629288c279eb804807fe61b2909",
+    "run_jetson.sh": "ddc4d2fd236571aa8dfad171461506b0a64eec47a281431c89f2bcceb3a121ad",
+    "run_all_jetson.sh": "ca9abfe4b3d67cff9d93a23928c3aaee04b2642344909424489f0c279e01576a",
+    "setup_jetson.sh": "fe3fcddd02f9cdaab702ed7afd5453c524cde6ce393c19db6a8e5a0238a44b3b",
+    "requirements-jetson-audio.txt": "f539431833fcb6a96ff6a1cd8f7c8c04323135febaa4f6a0e8c53534f912b4fe"
+  },
+  "videos": [
+    {
+      "path": "/root/smartbeamforming_perf/jetson_all_20260913T084420_836788Z/inputs/jetson_test_640x360.mp4",
+      "sha256": "026ba871beea701b2a6fde17d3a2e793076723e20c1f518e3aeb0d9ce39bca08",
+      "probe": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "width": 640,
+            "height": 360,
+            "avg_frame_rate": "25/1",
+            "nb_frames": "500"
+          }
+        ],
+        "format": {
+          "format_name": "mov,mp4,m4a,3gp,3g2,mj2"
+        }
+      }
+    },
+    {
+      "path": "/root/smartbeamforming_perf/jetson_all_20260913T084420_836788Z/inputs/jetson_test_1280x720.mp4",
+      "sha256": "a6206178e93f51660ffd95919484be917e45400f716e87edcd7b0f0bbb139c10",
+      "probe": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "width": 1280,
+            "height": 720,
+            "avg_frame_rate": "25/1",
+            "nb_frames": "500"
+          }
+        ],
+        "format": {
+          "format_name": "mov,mp4,m4a,3gp,3g2,mj2"
+        }
+      }
+    },
+    {
+      "path": "/root/smartbeamforming_perf/jetson_all_20260913T084420_836788Z/inputs/jetson_test_1920x1080.mp4",
+      "sha256": "b787da6b0c4c0b09b84baa0a1d0e56f3f6cae0d35c84def4b976e1772323159e",
+      "probe": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "width": 1920,
+            "height": 1080,
+            "avg_frame_rate": "25/1",
+            "nb_frames": "500"
+          }
+        ],
+        "format": {
+          "format_name": "mov,mp4,m4a,3gp,3g2,mj2"
+        }
+      }
+    }
+  ],
+  "steps": [
+    {
+      "name": "setup_check",
+      "command": [
+        "bash",
+        "/root/smartbeamforming_perf/setup_jetson.sh",
+        "--check-only"
+      ],
+      "status": "complete",
+      "utc_start": "2026-09-13T08:44:20.859150+00:00",
+      "log": "logs/setup_check.log",
+      "returncode": 0,
+      "utc_end": "2026-09-13T08:44:35.933417+00:00"
+    },
+    {
+      "name": "jetson_info",
+      "command": [
+        "bash",
+        "/root/smartbeamforming_perf/run_jetson.sh",
+        "info"
+      ],
+      "status": "complete",
+      "utc_start": "2026-09-13T08:44:35.935894+00:00",
+      "log": "logs/jetson_info.log",
+      "returncode": 0,
+      "utc_end": "2026-09-13T08:44:37.537342+00:00"
+    },
+    {
+      "name": "prepare_640x360",
+      "command": [
+        "ffmpeg",
+        "-hide_banner",
+        "-loglevel",
+        "error",
+        "-n",
+        "-f",
+        "lavfi",
+        "-i",
+        "testsrc2=size=640x360:rate=25",
+        "-t",
+        "20",
+        "-an",
+        "-c:v",
+        "libx264",
+        "-preset",
+        "fast",
+        "-crf",
+        "23",
+        "-threads",
+        "1",
+        "-bf",
+        "0",
+        "-pix_fmt",
+        "yuv420p",
+        "/root/smartbeamforming_perf/jetson_all_20260913T084420_836788Z/inputs/jetson_test_640x360.mp4"
+      ],
+      "status": "complete",
+      "utc_start": "2026-09-13T08:44:37.541176+00:00",
+      "log": "logs/prepare_640x360.log",
+      "returncode": 0,
+      "utc_end": "2026-09-13T08:44:44.078752+00:00"
+    },
+    {
+      "name": "prepare_1280x720",
+      "command": [
+        "ffmpeg",
+        "-hide_banner",
+        "-loglevel",
+        "error",
+        "-n",
+        "-f",
+        "lavfi",
+        "-i",
+        "testsrc2=size=1280x720:rate=25",
+        "-t",
+        "20",
+        "-an",
+        "-c:v",
+        "libx264",
+        "-preset",
+        "fast",
+        "-crf",
+        "23",
+        "-threads",
+        "1",
+        "-bf",
+        "0",
+        "-pix_fmt",
+        "yuv420p",
+        "/root/smartbeamforming_perf/jetson_all_20260913T084420_836788Z/inputs/jetson_test_1280x720.mp4"
+      ],
+      "status": "complete",
+      "utc_start": "2026-09-13T08:44:44.082524+00:00",
+      "log": "logs/prepare_1280x720.log",
+      "returncode": 0,
+      "utc_end": "2026-09-13T08:45:06.492075+00:00"
+    },
+    {
+      "name": "prepare_1920x1080",
+      "command": [
+        "ffmpeg",
+        "-hide_banner",
+        "-loglevel",
+        "error",
+        "-n",
+        "-f",
+        "lavfi",
+        "-i",
+        "testsrc2=size=1920x1080:rate=25",
+        "-t",
+        "20",
+        "-an",
+        "-c:v",
+        "libx264",
+        "-preset",
+        "fast",
+        "-crf",
+        "23",
+        "-threads",
+        "1",
+        "-bf",
+        "0",
+        "-pix_fmt",
+        "yuv420p",
+        "/root/smartbeamforming_perf/jetson_all_20260913T084420_836788Z/inputs/jetson_test_1920x1080.mp4"
+      ],
+      "status": "complete",
+      "utc_start": "2026-09-13T08:45:06.496101+00:00",
+      "log": "logs/prepare_1920x1080.log",
+      "returncode": 0,
+      "utc_end": "2026-09-13T08:45:54.759471+00:00"
+    },
+    {
+      "name": "probe_video_0",
+      "command": [
+        "ffprobe",
+        "-v",
+        "error",
+        "-select_streams",
+        "v:0",
+        "-show_entries",
+        "stream=codec_name,width,height,avg_frame_rate,nb_frames:format=format_name",
+        "-of",
+        "json",
+        "/root/smartbeamforming_perf/jetson_all_20260913T084420_836788Z/inputs/jetson_test_640x360.mp4"
+      ],
+      "status": "complete",
+      "utc_start": "2026-09-13T08:45:54.763409+00:00",
+      "log": "logs/probe_video_0.log",
+      "returncode": 0,
+      "utc_end": "2026-09-13T08:45:54.893145+00:00"
+    },
+    {
+      "name": "probe_video_1",
+      "command": [
+        "ffprobe",
+        "-v",
+        "error",
+        "-select_streams",
+        "v:0",
+        "-show_entries",
+        "stream=codec_name,width,height,avg_frame_rate,nb_frames:format=format_name",
+        "-of",
+        "json",
+        "/root/smartbeamforming_perf/jetson_all_20260913T084420_836788Z/inputs/jetson_test_1280x720.mp4"
+      ],
+      "status": "complete",
+      "utc_start": "2026-09-13T08:45:54.914008+00:00",
+      "log": "logs/probe_video_1.log",
+      "returncode": 0,
+      "utc_end": "2026-09-13T08:45:55.033115+00:00"
+    },
+    {
+      "name": "probe_video_2",
+      "command": [
+        "ffprobe",
+        "-v",
+        "error",
+        "-select_streams",
+        "v:0",
+        "-show_entries",
+        "stream=codec_name,width,height,avg_frame_rate,nb_frames:format=format_name",
+        "-of",
+        "json",
+        "/root/smartbeamforming_perf/jetson_all_20260913T084420_836788Z/inputs/jetson_test_1920x1080.mp4"
+      ],
+      "status": "complete",
+      "utc_start": "2026-09-13T08:45:55.062805+00:00",
+      "log": "logs/probe_video_2.log",
+      "returncode": 0,
+      "utc_end": "2026-09-13T08:45:55.183029+00:00"
+    },
+    {
+      "name": "audio",
+      "command": [
+        "bash",
+        "/root/smartbeamforming_perf/run_jetson.sh",
+        "audio",
+        "--backend",
+        "both",
+        "--cpu-threads",
+        "1",
+        "4",
+        "--gpu-host-threads",
+        "1",
+        "4",
+        "--profile",
+        "full",
+        "--gpu-implementation",
+        "optimized",
+        "--out",
+        "/root/smartbeamforming_perf/jetson_all_20260913T084420_836788Z/audio"
+      ],
+      "status": "complete",
+      "utc_start": "2026-09-13T08:45:55.217174+00:00",
+      "log": "logs/audio.log",
+      "returncode": 0,
+      "utc_end": "2026-09-13T09:06:21.612418+00:00"
+    },
+    {
+      "name": "memory",
+      "command": [
+        "bash",
+        "/root/smartbeamforming_perf/run_jetson.sh",
+        "memory",
+        "--backend",
+        "both",
+        "--cpu-threads",
+        "1",
+        "4",
+        "--profile",
+        "full",
+        "--gpu-counters",
+        "--gpu-implementation",
+        "optimized",
+        "--out",
+        "/root/smartbeamforming_perf/jetson_all_20260913T084420_836788Z/memory"
+      ],
+      "status": "complete",
+      "utc_start": "2026-09-13T09:06:21.616835+00:00",
+      "log": "logs/memory.log",
+      "returncode": 0,
+      "utc_end": "2026-09-13T09:11:40.714170+00:00"
+    },
+    {
+      "name": "capacity_replay0",
+      "command": [
+        "bash",
+        "/root/smartbeamforming_perf/run_jetson.sh",
+        "capacity",
+        "--backend",
+        "both",
+        "--cpu-threads",
+        "4",
+        "8",
+        "--gpu-host-threads",
+        "4",
+        "--people",
+        "1",
+        "2",
+        "4",
+        "8",
+        "16",
+        "32",
+        "64",
+        "--beams-per-person",
+        "1",
+        "4",
+        "--seconds",
+        "15",
+        "--rounds",
+        "3",
+        "--history-ms",
+        "750",
+        "--replay-every-ms",
+        "0",
+        "--replay-deadline-ms",
+        "1000",
+        "--gpu-implementation",
+        "optimized",
+        "--out",
+        "/root/smartbeamforming_perf/jetson_all_20260913T084420_836788Z/capacity_replay0"
+      ],
+      "status": "complete",
+      "utc_start": "2026-09-13T09:11:40.730674+00:00",
+      "log": "logs/capacity_replay0.log",
+      "returncode": 0,
+      "utc_end": "2026-09-13T09:49:37.203218+00:00"
+    },
+    {
+      "name": "capacity_replay1000",
+      "command": [
+        "bash",
+        "/root/smartbeamforming_perf/run_jetson.sh",
+        "capacity",
+        "--backend",
+        "both",
+        "--cpu-threads",
+        "4",
+        "8",
+        "--gpu-host-threads",
+        "4",
+        "--people",
+        "1",
+        "2",
+        "4",
+        "8",
+        "16",
+        "32",
+        "64",
+        "--beams-per-person",
+        "1",
+        "4",
+        "--seconds",
+        "15",
+        "--rounds",
+        "3",
+        "--history-ms",
+        "750",
+        "--replay-every-ms",
+        "1000",
+        "--replay-deadline-ms",
+        "1000",
+        "--gpu-implementation",
+        "optimized",
+        "--out",
+        "/root/smartbeamforming_perf/jetson_all_20260913T084420_836788Z/capacity_replay1000"
+      ],
+      "status": "complete",
+      "utc_start": "2026-09-13T09:49:37.207898+00:00",
+      "log": "logs/capacity_replay1000.log",
+      "returncode": 0,
+      "utc_end": "2026-09-13T10:29:14.769078+00:00"
+    },
+    {
+      "name": "video_timing_1t",
+      "command": [
+        "bash",
+        "/root/smartbeamforming_perf/run_jetson.sh",
+        "video",
+        "--video",
+        "/root/smartbeamforming_perf/jetson_all_20260913T084420_836788Z/inputs/jetson_test_640x360.mp4",
+        "/root/smartbeamforming_perf/jetson_all_20260913T084420_836788Z/inputs/jetson_test_1280x720.mp4",
+        "/root/smartbeamforming_perf/jetson_all_20260913T084420_836788Z/inputs/jetson_test_1920x1080.mp4",
+        "--decoders",
+        "software",
+        "nvdec",
+        "--threads",
+        "1",
+        "--rounds",
+        "6",
+        "--frames",
+        "150",
+        "--warmup",
+        "10",
+        "--modes",
+        "paced",
+        "throughput",
+        "--out",
+        "/root/smartbeamforming_perf/jetson_all_20260913T084420_836788Z/video_timing_1t"
+      ],
+      "status": "complete",
+      "utc_start": "2026-09-13T10:29:14.773980+00:00",
+      "log": "logs/video_timing_1t.log",
+      "returncode": 0,
+      "utc_end": "2026-09-13T10:39:00.515880+00:00"
+    },
+    {
+      "name": "video_timing_4t",
+      "command": [
+        "bash",
+        "/root/smartbeamforming_perf/run_jetson.sh",
+        "video",
+        "--video",
+        "/root/smartbeamforming_perf/jetson_all_20260913T084420_836788Z/inputs/jetson_test_640x360.mp4",
+        "/root/smartbeamforming_perf/jetson_all_20260913T084420_836788Z/inputs/jetson_test_1280x720.mp4",
+        "/root/smartbeamforming_perf/jetson_all_20260913T084420_836788Z/inputs/jetson_test_1920x1080.mp4",
+        "--decoders",
+        "software",
+        "nvdec",
+        "--threads",
+        "4",
+        "--rounds",
+        "6",
+        "--frames",
+        "150",
+        "--warmup",
+        "10",
+        "--modes",
+        "paced",
+        "throughput",
+        "--out",
+        "/root/smartbeamforming_perf/jetson_all_20260913T084420_836788Z/video_timing_4t"
+      ],
+      "status": "complete",
+      "utc_start": "2026-09-13T10:39:00.523952+00:00",
+      "log": "logs/video_timing_4t.log",
+      "returncode": 0,
+      "utc_end": "2026-09-13T10:48:21.460494+00:00"
+    },
+    {
+      "name": "video_memory_1t",
+      "command": [
+        "bash",
+        "/root/smartbeamforming_perf/run_jetson.sh",
+        "video",
+        "--video",
+        "/root/smartbeamforming_perf/jetson_all_20260913T084420_836788Z/inputs/jetson_test_640x360.mp4",
+        "/root/smartbeamforming_perf/jetson_all_20260913T084420_836788Z/inputs/jetson_test_1280x720.mp4",
+        "/root/smartbeamforming_perf/jetson_all_20260913T084420_836788Z/inputs/jetson_test_1920x1080.mp4",
+        "--decoders",
+        "software",
+        "nvdec",
+        "--threads",
+        "1",
+        "--rounds",
+        "6",
+        "--frames",
+        "150",
+        "--warmup",
+        "10",
+        "--modes",
+        "paced",
+        "throughput",
+        "--memory",
+        "--out",
+        "/root/smartbeamforming_perf/jetson_all_20260913T084420_836788Z/video_memory_1t"
+      ],
+      "status": "complete",
+      "utc_start": "2026-09-13T10:48:21.472735+00:00",
+      "log": "logs/video_memory_1t.log",
+      "returncode": 0,
+      "utc_end": "2026-09-13T10:59:30.653231+00:00"
+    },
+    {
+      "name": "video_memory_4t",
+      "command": [
+        "bash",
+        "/root/smartbeamforming_perf/run_jetson.sh",
+        "video",
+        "--video",
+        "/root/smartbeamforming_perf/jetson_all_20260913T084420_836788Z/inputs/jetson_test_640x360.mp4",
+        "/root/smartbeamforming_perf/jetson_all_20260913T084420_836788Z/inputs/jetson_test_1280x720.mp4",
+        "/root/smartbeamforming_perf/jetson_all_20260913T084420_836788Z/inputs/jetson_test_1920x1080.mp4",
+        "--decoders",
+        "software",
+        "nvdec",
+        "--threads",
+        "4",
+        "--rounds",
+        "6",
+        "--frames",
+        "150",
+        "--warmup",
+        "10",
+        "--modes",
+        "paced",
+        "throughput",
+        "--memory",
+        "--out",
+        "/root/smartbeamforming_perf/jetson_all_20260913T084420_836788Z/video_memory_4t"
+      ],
+      "status": "complete",
+      "utc_start": "2026-09-13T10:59:30.658380+00:00",
+      "log": "logs/video_memory_4t.log",
+      "returncode": 0,
+      "utc_end": "2026-09-13T11:10:16.260409+00:00"
+    }
+  ],
+  "optional_gpu_counters": [
+    {
+      "path": "memory/gpu_1t_audio1/gpu_dram_counters.json",
+      "status": "unavailable",
+      "reason": "Nie znaleziono ncu (Nsight Compute). Pomiary czasu i zajętości pamięci są dostępne; brak sprzętowych liczników DRAM."
+    },
+    {
+      "path": "memory/gpu_1t_audio4/gpu_dram_counters.json",
+      "status": "unavailable",
+      "reason": "Nie znaleziono ncu (Nsight Compute). Pomiary czasu i zajętości pamięci są dostępne; brak sprzętowych liczników DRAM."
+    },
+    {
+      "path": "memory/gpu_1t_beam1/gpu_dram_counters.json",
+      "status": "unavailable",
+      "reason": "Nie znaleziono ncu (Nsight Compute). Pomiary czasu i zajętości pamięci są dostępne; brak sprzętowych liczników DRAM."
+    },
+    {
+      "path": "memory/gpu_1t_beam4/gpu_dram_counters.json",
+      "status": "unavailable",
+      "reason": "Nie znaleziono ncu (Nsight Compute). Pomiary czasu i zajętości pamięci są dostępne; brak sprzętowych liczników DRAM."
+    },
+    {
+      "path": "memory/gpu_1t_fft/gpu_dram_counters.json",
+      "status": "unavailable",
+      "reason": "Nie znaleziono ncu (Nsight Compute). Pomiary czasu i zajętości pamięci są dostępne; brak sprzętowych liczników DRAM."
+    },
+    {
+      "path": "memory/gpu_1t_replay1000/gpu_dram_counters.json",
+      "status": "unavailable",
+      "reason": "Nie znaleziono ncu (Nsight Compute). Pomiary czasu i zajętości pamięci są dostępne; brak sprzętowych liczników DRAM."
+    },
+    {
+      "path": "memory/gpu_1t_replay500/gpu_dram_counters.json",
+      "status": "unavailable",
+      "reason": "Nie znaleziono ncu (Nsight Compute). Pomiary czasu i zajętości pamięci są dostępne; brak sprzętowych liczników DRAM."
+    },
+    {
+      "path": "memory/gpu_1t_replay750/gpu_dram_counters.json",
+      "status": "unavailable",
+      "reason": "Nie znaleziono ncu (Nsight Compute). Pomiary czasu i zajętości pamięci są dostępne; brak sprzętowych liczników DRAM."
+    }
+  ],
+  "git_commit": "892aa124ee562e8214a4c2d4362aa032caf0f277",
+  "utc_end": "2026-09-13T11:10:16.321792+00:00",
+  "exit_code": 0
+}

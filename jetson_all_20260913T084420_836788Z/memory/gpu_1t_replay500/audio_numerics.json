@@ -1,0 +1,36 @@
+{
+  "validation_revision": 2,
+  "comparisons": [
+    {
+      "case": "replay500",
+      "status": "passed",
+      "samples": 24544,
+      "core_samples": 24032,
+      "edge_samples": 512,
+      "core_norm_min": 0.25,
+      "core_atol": 0.0002,
+      "edge_before_gain_atol": 2e-06,
+      "rtol": 0.0002,
+      "strict_mismatches": 0,
+      "core_mismatches": 0,
+      "edge_mismatches": 0,
+      "zero_support_mismatches": 0,
+      "max_absolute_error": 0.0027618408203125,
+      "max_core_absolute_error": 1.6689300537109375e-06,
+      "rms_error": 2.374159930683583e-05,
+      "rms_reference": 1.2839993347977574,
+      "rms_limit": 0.00012839993347977575,
+      "relative_l2_error": 1.8490351718581977e-05,
+      "sample_details": [
+        {
+          "index": 24539,
+          "actual": 48.26889419555664,
+          "expected": 48.26613235473633,
+          "absolute_error": 0.0027618408203125,
+          "window_norm": 2.2766339924373824e-08,
+          "roundoff_gain": 6627.5557858867605
+        }
+      ]
+    }
+  ]
+}

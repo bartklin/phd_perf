@@ -1,0 +1,278 @@
+[
+  {
+    "backend": "cpu",
+    "threads": 4,
+    "beams_per_person": 1,
+    "largest_tested_passing_people": 8,
+    "candidate_beams_at_that_count": 8,
+    "reached_test_ceiling": false,
+    "points": [
+      {
+        "people": 1,
+        "all_rounds_passed": true,
+        "completed_rounds": 3
+      },
+      {
+        "people": 2,
+        "all_rounds_passed": true,
+        "completed_rounds": 3
+      },
+      {
+        "people": 4,
+        "all_rounds_passed": true,
+        "completed_rounds": 3
+      },
+      {
+        "people": 8,
+        "all_rounds_passed": true,
+        "completed_rounds": 3
+      },
+      {
+        "people": 16,
+        "all_rounds_passed": false,
+        "completed_rounds": 3
+      },
+      {
+        "people": 32,
+        "all_rounds_passed": false,
+        "completed_rounds": 3
+      },
+      {
+        "people": 64,
+        "all_rounds_passed": false,
+        "completed_rounds": 3
+      }
+    ],
+    "scope": "Largest tested count passing all rounds under the stated policy; not an absolute hardware limit or a whole-system guarantee."
+  },
+  {
+    "backend": "cpu",
+    "threads": 4,
+    "beams_per_person": 4,
+    "largest_tested_passing_people": 2,
+    "candidate_beams_at_that_count": 8,
+    "reached_test_ceiling": false,
+    "points": [
+      {
+        "people": 1,
+        "all_rounds_passed": true,
+        "completed_rounds": 3
+      },
+      {
+        "people": 2,
+        "all_rounds_passed": true,
+        "completed_rounds": 3
+      },
+      {
+        "people": 4,
+        "all_rounds_passed": false,
+        "completed_rounds": 3
+      },
+      {
+        "people": 8,
+        "all_rounds_passed": false,
+        "completed_rounds": 3
+      },
+      {
+        "people": 16,
+        "all_rounds_passed": false,
+        "completed_rounds": 3
+      },
+      {
+        "people": 32,
+        "all_rounds_passed": false,
+        "completed_rounds": 3
+      },
+      {
+        "people": 64,
+        "all_rounds_passed": false,
+        "completed_rounds": 3
+      }
+    ],
+    "scope": "Largest tested count passing all rounds under the stated policy; not an absolute hardware limit or a whole-system guarantee."
+  },
+  {
+    "backend": "cpu",
+    "threads": 8,
+    "beams_per_person": 1,
+    "largest_tested_passing_people": 8,
+    "candidate_beams_at_that_count": 8,
+    "reached_test_ceiling": false,
+    "points": [
+      {
+        "people": 1,
+        "all_rounds_passed": true,
+        "completed_rounds": 3
+      },
+      {
+        "people": 2,
+        "all_rounds_passed": true,
+        "completed_rounds": 3
+      },
+      {
+        "people": 4,
+        "all_rounds_passed": true,
+        "completed_rounds": 3
+      },
+      {
+        "people": 8,
+        "all_rounds_passed": true,
+        "completed_rounds": 3
+      },
+      {
+        "people": 16,
+        "all_rounds_passed": false,
+        "completed_rounds": 3
+      },
+      {
+        "people": 32,
+        "all_rounds_passed": false,
+        "completed_rounds": 3
+      },
+      {
+        "people": 64,
+        "all_rounds_passed": false,
+        "completed_rounds": 3
+      }
+    ],
+    "scope": "Largest tested count passing all rounds under the stated policy; not an absolute hardware limit or a whole-system guarantee."
+  },
+  {
+    "backend": "cpu",
+    "threads": 8,
+    "beams_per_person": 4,
+    "largest_tested_passing_people": 2,
+    "candidate_beams_at_that_count": 8,
+    "reached_test_ceiling": false,
+    "points": [
+      {
+        "people": 1,
+        "all_rounds_passed": true,
+        "completed_rounds": 3
+      },
+      {
+        "people": 2,
+        "all_rounds_passed": true,
+        "completed_rounds": 3
+      },
+      {
+        "people": 4,
+        "all_rounds_passed": false,
+        "completed_rounds": 3
+      },
+      {
+        "people": 8,
+        "all_rounds_passed": false,
+        "completed_rounds": 3
+      },
+      {
+        "people": 16,
+        "all_rounds_passed": false,
+        "completed_rounds": 3
+      },
+      {
+        "people": 32,
+        "all_rounds_passed": false,
+        "completed_rounds": 3
+      },
+      {
+        "people": 64,
+        "all_rounds_passed": false,
+        "completed_rounds": 3
+      }
+    ],
+    "scope": "Largest tested count passing all rounds under the stated policy; not an absolute hardware limit or a whole-system guarantee."
+  },
+  {
+    "backend": "gpu",
+    "threads": 4,
+    "beams_per_person": 1,
+    "largest_tested_passing_people": null,
+    "candidate_beams_at_that_count": null,
+    "reached_test_ceiling": false,
+    "points": [
+      {
+        "people": 1,
+        "all_rounds_passed": false,
+        "completed_rounds": 3
+      },
+      {
+        "people": 2,
+        "all_rounds_passed": false,
+        "completed_rounds": 3
+      },
+      {
+        "people": 4,
+        "all_rounds_passed": false,
+        "completed_rounds": 3
+      },
+      {
+        "people": 8,
+        "all_rounds_passed": false,
+        "completed_rounds": 3
+      },
+      {
+        "people": 16,
+        "all_rounds_passed": false,
+        "completed_rounds": 3
+      },
+      {
+        "people": 32,
+        "all_rounds_passed": false,
+        "completed_rounds": 3
+      },
+      {
+        "people": 64,
+        "all_rounds_passed": false,
+        "completed_rounds": 3
+      }
+    ],
+    "scope": "Largest tested count passing all rounds under the stated policy; not an absolute hardware limit or a whole-system guarantee."
+  },
+  {
+    "backend": "gpu",
+    "threads": 4,
+    "beams_per_person": 4,
+    "largest_tested_passing_people": null,
+    "candidate_beams_at_that_count": null,
+    "reached_test_ceiling": false,
+    "points": [
+      {
+        "people": 1,
+        "all_rounds_passed": false,
+        "completed_rounds": 3
+      },
+      {
+        "people": 2,
+        "all_rounds_passed": false,
+        "completed_rounds": 3
+      },
+      {
+        "people": 4,
+        "all_rounds_passed": false,
+        "completed_rounds": 3
+      },
+      {
+        "people": 8,
+        "all_rounds_passed": false,
+        "completed_rounds": 3
+      },
+      {
+        "people": 16,
+        "all_rounds_passed": false,
+        "completed_rounds": 3
+      },
+      {
+        "people": 32,
+        "all_rounds_passed": false,
+        "completed_rounds": 3
+      },
+      {
+        "people": 64,
+        "all_rounds_passed": false,
+        "completed_rounds": 3
+      }
+    ],
+    "scope": "Largest tested count passing all rounds under the stated policy; not an absolute hardware limit or a whole-system guarantee."
+  }
+]

@@ -1,0 +1,36 @@
+{
+  "validation_revision": 2,
+  "comparisons": [
+    {
+      "case": "replay750",
+      "status": "passed",
+      "samples": 36544,
+      "core_samples": 36032,
+      "edge_samples": 512,
+      "core_norm_min": 0.25,
+      "core_atol": 0.0002,
+      "edge_before_gain_atol": 2e-06,
+      "rtol": 0.0002,
+      "strict_mismatches": 0,
+      "core_mismatches": 0,
+      "edge_mismatches": 0,
+      "zero_support_mismatches": 0,
+      "max_absolute_error": 0.0,
+      "max_core_absolute_error": 0.0,
+      "rms_error": 0.0,
+      "rms_reference": 1.1179800961539752,
+      "rms_limit": 0.00011179800961539752,
+      "relative_l2_error": 0.0,
+      "sample_details": [
+        {
+          "index": 0,
+          "actual": 0.0,
+          "expected": 0.0,
+          "absolute_error": 0.0,
+          "window_norm": 0.0,
+          "roundoff_gain": 1.0
+        }
+      ]
+    }
+  ]
+}

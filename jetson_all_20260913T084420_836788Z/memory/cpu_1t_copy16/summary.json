@@ -1,0 +1,23 @@
+{
+  "case": "copy16",
+  "backend": "cpu",
+  "threads": 1,
+  "n": 1200,
+  "median_ms": 3.9707385,
+  "p95_ms": 5.4736066,
+  "sampled_rss_peak_bytes": 86417408,
+  "sampled_rss_increase_bytes": 34787328,
+  "cupy_reserved_bytes": null,
+  "known_array_bytes": 33554432,
+  "read_bytes": 16777216,
+  "write_bytes": 16777216,
+  "effective_MB_s": 8450.426035358409,
+  "effective_Mb_s": 67603.40828286727,
+  "traffic_model": {
+    "read_bytes": 16777216,
+    "write_bytes": 16777216,
+    "element_read_count": 4194304,
+    "element_write_count": 4194304,
+    "kind": "Exact logical copy traffic; includes both read and write, not a physical DRAM counter."
+  }
+}
